@@ -17,10 +17,10 @@ We will try to provide appealing and interactive visualizations to support our f
 
 # Dataset
 * Lettuce analyse this dataset: [Open Food Fact database](https://world.openfoodfacts.org/data).  
-The dataset is built as part of a collaborative project to build a free and open database of alimentary items commercially available worldwide. It is stored as a csv file containing several fields (not always indicated), typically the list of ingredients of the product, the nutritional table (usually indicated on the back of the product), nutritional scores, the brand and distributor, the packaging of the product, and more.
+The dataset is built as part of a collaborative project to build a free and open database of alimentary items commercially available worldwide. It is stored as a `.csv` file containing several fields (not always indicated), typically the list of ingredients of the product, the nutritional table (usually indicated on the back of the product), nutritional scores, the brand and distributor, the packaging of the product, and more.
 
 #### Optional
-* [Dunnhumby dataset](https://www.dunnhumby.com/careers/engineering/sourcefiles), which could be used to gain consumption information for each product.
+* [Dunnhumby dataset](https://www.dunnhumby.com/careers/engineering/sourcefiles), which could be used to gain consumption information for selected products.
 
 # A list of internal milestones up until project milestone 2
 ##### 28th to 3rd of November:
