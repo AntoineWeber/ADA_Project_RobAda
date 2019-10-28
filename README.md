@@ -1,11 +1,11 @@
-# Title
+# Free Diving in food facts
 
 # Abstract
 While everybody buys and consumes numerous food-related products every day, little care is given in the precise products’ compositions.   
-For the sake of this study, we decided to focus our effort on the [Open Food Facts database](https://world.openfoodfacts.org/data) regrouping the information of a very broad variety of products, including their nutrition facts and derived nutrition scores from different standards, such as the [UK Food Standards Agency](https://en.wikipedia.org/wiki/Food_Standards_Agency) (FSA) or the same score but derived from the French market. 
+For the sake of this study, we decided to focus our effort on the [Open Food Facts database](https://world.openfoodfacts.org/data) regrouping the information of a very broad variety of products, including their nutrition facts and derived nutrition scores from different standards, such as the [UK Food Standards Agency](https://en.wikipedia.org/wiki/Food_Standards_Agency)'s (FSA) or the same score but derived from the French market. 
 
 We will focus on the analysis of the predominant products over the world. Several directions will be explored such as the nutritional differences between regular and bio-products, the differences across countries, the effect of ingredients on the nutrition score.
-We will try to provide appealing and interactive visualizations to support our findings and analysis. 
+We will try to provide appealing and interactive visualizations to support our findings and analysis.
 
 
 # Research questions
@@ -16,7 +16,7 @@ We will try to provide appealing and interactive visualizations to support our f
 * How do ingredients or categories influence the different nutrition scores? 
 
 # Dataset
-* [Open Food Fact database](https://world.openfoodfacts.org/data)
+* Lettuce analyse this dataset: [Open Food Fact database](https://world.openfoodfacts.org/data)
 
 #### Optional
 * [Dunhumby dataset](https://www.dunnhumby.com/careers/engineering/sourcefiles)
