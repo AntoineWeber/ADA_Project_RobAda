@@ -39,7 +39,7 @@ We will try to provide appealing and interactive visualizations to support our f
 * Cleaning, proof-reading
 * Plan upcoming objectives
 
-# Questions for TAa
-* In what extent are we supposed to spread our analysis, meaning should we focus on a single topic and dive deep or should we cover multiple topics on their surface ?
-* The dataset is highly unbalanced between countries, are we allowed to focus the analysis on the most represented countries ?
-* Are there some other datasets related to openfoodfacts where we can obtain information about food consumption for each countrys ? Could we (maybe) use the dunnhumby dataset ?
+# Questions for TAs
+* In what extent are we supposed to spread our analysis, meaning should we focus on a single topic and dive deep or should we cover multiple topics superficially?
+* The dataset is highly unbalanced between countries, are we allowed to focus the analysis on the most represented countries?
+* Are there some other datasets related to openfoodfacts where we can obtain information about food consumption for each countrys? Could we (maybe) use the dunnhumby dataset?
