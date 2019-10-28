@@ -1,22 +1,46 @@
 # Title
 
 # Abstract
-A 150 word description of the project idea, goals, dataset used. What story you would like to tell and why? What's the motivation behind your project?
+While everybody buys and consumes numerous food-related products every day, little care is given in the precise products’ compositions.   
+For the sake of this study, we decided to focus our effort on the [Open Food Facts database](https://world.openfoodfacts.org/data) regrouping the information of a very broad variety of products, including their nutrition facts and derived nutrition scores from different standards, such as the [UK Food Standards Agency](https://en.wikipedia.org/wiki/Food_Standards_Agency) (FSA) or the same score but derived from the French market. 
 
-keywords : Food habits directly linked to health / we are what we eat mdr / provide intuitive comparative interactive viz / FIND MORE, ASK GENERAL QUESTIONS
+We will focus on the analysis of the predominant products over the world. Several directions will be explored such as the nutritional differences between regular and bio-products, the differences across countries, the effect of ingredients on the nutrition score.
+We will try to provide appealing and interactive visualizations to support our findings and analysis. 
+
 
 # Research questions
-A list of research questions you would like to address during the project.
 
-ideas : import;export / overall most consumed nutritive fact -> does this reflects a good health hygi�ne mdr / Does giants produce the same products everywhere
+* Comparing bio vs. normal products, is there a real difference in composition?
+* What are the levels of interdependencies between nations based on their production and importations? 
+* Based on the companies product portfolios, which are the largest ones? How is the   production distributed? 
+* How do ingredients or categories influence the different nutrition scores? 
 
 # Dataset
-List the dataset(s) you want to use, and some ideas on how do you expect to get, manage, process and enrich it/them. Show us you've read the docs and some examples, and you've a clear idea on what to expect. Discuss data size and format if relevant.
+* [Open Food Fact database](https://world.openfoodfacts.org/data)
 
-openfoodfact & else ?
+#### Optional
+* [Dunhumby dataset](https://www.dunnhumby.com/careers/engineering/sourcefiles)
 
 # A list of internal milestones up until project milestone 2
-Add here a sketch of your planning for the next project milestone.
+##### 28th to 3rd of November:
+* Setup git structure, coding conventions, and select tools/libraries
+* Exploring data, explore what’s available
+* Play with the dataset
+##### 4th to 10th of November:
+* Assess data cleanliness, missing data proportion, data distribution across countries, across categories
+* Data preprocessing:
+* Assess missing data proportion
+* Remove NaNs, outliers
+##### 11th to 17th of November:
+* Preliminary assessment of questions
+* Investigation of possible visualizations/plots
+* Refinement/selection of kept research questions
+#####  18th to 25th of November:
+* Selection of plots / visualization
+* Cleaning, proof-reading
+* Plan upcoming 
 
 # Questions for TAa
-Add here some questions you have for us, in general or project-specific.
+* In what extent are we supposed to spread our analysis, meaning should we focus on a single topic and dive deep or should we cover multiple topics on their surface ?
+* The dataset is highly unbalanced between countries, are we allowed to focus the analysis on the most represented countries ?
+* Are there some other datasets related to openfoodfacts where we can obtain information about food consumption for each countrys ? Could we use the dunhumby dataset ?
