@@ -15,6 +15,11 @@ The openfoodfacts dataset (~2GB) is added to the .gitignore, thus you need to
 download it from this [link](https://static.openfoodfacts.org/data/en.openfoodfacts.org.products.csv)
 and saved it to the `data` folder. It must be named `en.openfoodfacts.org.products.csv`
 
+To load the dataset, use the following function:
+```python
+foodFacts_df = pd.read_csv(OPEN_FOOD_FACTS_PATH, encoding='UTF-8', sep='\t')
+```
+
 ## Coding conventions
 
 * Name variables using the underscore separation convention:
