@@ -1,6 +1,9 @@
 # Ignore large datasets
 data/en.openfoodfacts.org.products.csv
 
+# annoying mac
+.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -11,6 +14,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+.ipynb_checkpoints
 build/
 develop-eggs/
 dist/
