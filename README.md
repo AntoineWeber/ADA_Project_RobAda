@@ -2,9 +2,10 @@
 1) general remark on the dataset with a global view (missing data, corrupted data, ...) (CLEANING)
 2) Hedi's part, which serves as a representation for cleaning (EXPLORATION)
 3) Thomas' part which filters the data for bio vs non bio + his analysis on the scores (BIO VS NON-BIO : SCORES)
-4) Concatenate Antoine's information on the additives (BIO VS non-BIO : ADDITIVES)
-5) Explain why we dropped the global analysis per country (missing countries) by Lucas (DROPPED QUESTIONS : JUSTIFICATION)
-6) CONCLUSION : PROPOSED DATA STORY
+4) Concatenate Antoine's information on the additives (BIO VS non-BIO : ADDITIVES) 
+5) Why are bio products bad sometimes? How come they sometimes have poor nutritional scores?
+6) Explain why we dropped the global analysis per country (missing countries) by Lucas (DROPPED QUESTIONS : JUSTIFICATION)
+7) CONCLUSION : PROPOSED DATA STORY
 
 
 # Free Diving into Food Facts
