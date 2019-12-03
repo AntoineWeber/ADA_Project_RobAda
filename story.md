@@ -7,6 +7,9 @@ plots:
   -
     json_file: "bar.json"
     html_tag: "#vis"
+  -
+    json_file: "bar.json"
+    html_tag: "#vis2"
 ---
 
 # Bio vs regular
@@ -24,3 +27,5 @@ Bah oui regarde !
 ## Ah ouais
 
 Bien ouej 6/6
+
+<div id="vis2"> </div>
