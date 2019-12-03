@@ -38,14 +38,11 @@ layout: compress
     {% endif %}
     <!-- Parse vega plots -->
     <script type="text/javascript">
-    // parse a spec and create a visualization view
-    function parse(file, element) {
-      vg.parse.spec(spec, function(chart) { chart({el:element}).update(); });
-    }
 
     {% for plot in page.plots %}
-    parse("{{ site.url }}/{{ plot.json_file }}", "{{ plot.html_tag }}");
+    vegaEmbed("{{ plot.html_tag }}", "{{ site.url }}/{{ plot.json_file }}");
     {% endfor %}
+
     </script>
 </body>
 </html>
