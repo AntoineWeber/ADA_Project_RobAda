@@ -1,7 +1,7 @@
 ---
 layout: story
 title: "Data story: Bio vs regular"
-feature: https://images.pexels.com/photos/3083188/pexels-photo-3083188.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260
+feature: https://her2.org.uk/wp-content/uploads/2019/07/featured-organic-food-1024x535-810x423.jpg
 permalink: /story/
 plots:
   -
