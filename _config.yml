@@ -7,7 +7,7 @@ logo:               'assets/img/logo.png'
 background:         'assets/img/background.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                https://th-havy.github.io/Moon
+url:                https://antoineweber.github.io/ADA_Project_RobAda
 
 base_repository:    https://github.com/AntoineWeber/ADA_Project_RobAda
 
