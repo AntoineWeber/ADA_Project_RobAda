@@ -1,5 +1,6 @@
 # Ignore large datasets
 data/en.openfoodfacts.org.products.csv
+data/en.openfoodfacts.org.products.pickle
 
 # annoying mac
 .DS_Store
@@ -130,3 +131,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# editor related files
+.vscode
