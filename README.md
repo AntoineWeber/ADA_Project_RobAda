@@ -4,43 +4,33 @@
 While everybody buys and consumes numerous food-related products every day, little care is given in the precise products’ compositions.   
 For the sake of this study, we decided to focus our effort on the [Open Food Facts database](https://world.openfoodfacts.org/data) regrouping the information of a very broad variety of products, including their nutrition facts and derived nutrition scores from different standards, such as the [UK Food Standards Agency](https://en.wikipedia.org/wiki/Food_Standards_Agency)'s (FSA) or the same score but derived from the French market. 
 
-We will focus on the analysis of the predominant products over the world. Several directions will be explored such as the nutritional differences between regular and bio-products, the differences across countries, the effect of ingredients on selected nutrition scores.
-We will try to provide appealing and interactive visualizations to support our findings and analysis.
-
+We will concentrate on the quantitative comparison of bio vs normal products. In particular, we will explore different views to compare these two categories. We will assess whether the general common knowledge that bio products are healthier than normal products is true. We will provide an appealing data story to guide you through our analysis.
 
 # Research questions
-
-* Comparing bio vs. normal products, is there a real difference in composition?
-* What are the levels of interdependencies between nations based on their production and importations? 
-* Among the largest food companies, which ones have the broadest portfolio? In which sectors are they predominant?
-* How do ingredients or categories influence the selected nutrition scores? 
+* Comparing **bio vs. normal products**, is there a real difference between them? In particular, we will focus our analysis on the following main questions:
+  * Is there a difference of nutrition score between these two categories ?
+  * Are there any differences in terms of additives ?
+  * What about their [Nova score](https://fr.wikipedia.org/wiki/NOVA_(nutrition)) ?
+  * And their composition ?
 
 # Dataset
 * Lettuce analyse this dataset: [Open Food Fact database](https://world.openfoodfacts.org/data).  
 The dataset is built as part of a collaborative project to build a free and open database of alimentary items commercially available worldwide. It is stored as a `.csv` file containing several fields (not always indicated), typically the list of ingredients of the product, the nutritional table (usually indicated on the back of the product), nutritional scores, the brand and distributor, the packaging of the product, and more.
 
 #### Optional
-* [Dunnhumby dataset](https://www.dunnhumby.com/careers/engineering/sourcefiles), which could be used to gain consumption information for selected products.
+* [Ciqual dataset](https://www.data.gouv.fr/fr/datasets/table-de-composition-nutritionnelle-des-aliments-ciqual/) which contains a table of nutritional composition for various food products, in particular **raw** products (fruits and vegetables).
 
-# A list of internal milestones up until project milestone 2
-##### 28th to 3rd of November:
-* Setup git structure, coding conventions, and select tools/libraries
-* Explore data, explore what’s available
-* Play with the dataset
-##### 4th to 10th of November:
-* Assess data cleanliness, missing data proportion, data distribution across countries and categories
-* Data preprocessing
-* Data cleaning
-##### 11th to 17th of November: 
-* Preliminary assesment of questions
-* Investigation of possible visualizations/plots
-* Refinement/selection of kept research questions
-#####  18th to 25th of November:
-* Selection of plots / visualizations
-* Cleaning, proof-reading
-* Plan upcoming objectives
-
-# Questions for TAs
-* In what extent are we supposed to spread our analysis, meaning should we focus on a single topic and dive deep or should we cover multiple topics superficially?
-* The dataset is highly unbalanced between countries, are we allowed to focus the analysis on the most represented countries?
-* Are there some other datasets related to openfoodfacts where we can obtain information about food consumption for each countrys? Could we (maybe) use the dunnhumby dataset?
+# A list of internal milestones up until final milestone
+##### 25th of November to 1st of December:
+* Finish all ongoing analysis
+* Clean plots
+* Start looking for data story framework
+##### 2nd to 8th of December:
+* Start sketching data story
+* Incorporate generated plots
+##### 9th to 15th of December: 
+* Continue data story
+* Pull everything together
+#####  16th to 20th of December:
+* Finish visualisation and data story
+* Proof read
