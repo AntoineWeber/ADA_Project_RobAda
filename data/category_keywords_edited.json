@@ -1,0 +1,193 @@
+{
+  "meat, fish, egg": {
+    "meat": [
+      "meat",
+      "viande",
+      "gibier",
+      "beef",
+      "veau",
+      "chair",
+      "volaille",
+      "lamb",
+      "meal",
+      "agneau",
+      "turkey",
+      "porc",
+      "mouton"
+    ],
+    "fish": [
+      "fish",
+      "poisson",
+      "seafood",
+      "fish",
+      "friture",
+      "fruit de mer"
+    ],
+    "egg": [
+      "egg",
+      "oeuf"
+    ]
+  },
+  "fruit, vegetable": {
+    "fruit": [
+      "fruit",
+      "baie",
+      "graine",
+      "nut",
+      "germe",
+      "seed"
+    ],
+    "vegetable": [
+      "vegetable",
+      "legume",
+      "organic",
+      "plant"
+    ],
+    "legume": [
+      "legume",
+      "Legumineuse"
+    ],
+    "seed": [
+      "seed",
+      "graine",
+      "nut",
+      "germe",
+      "corn",
+      "berry",
+      "grain"
+    ]
+  },
+  "cereal": {
+    "pasta": [
+      "pasta",
+      "pate"
+    ],
+    "rice": [
+      "rice",
+      "riz"
+    ],
+    "flour": [
+      "flour",
+      "farine"
+    ],
+    "bread": [
+      "bread",
+      "pain",
+      "croute"
+    ],
+    "biscuit": [
+      "biscuit"
+    ]
+  },
+  "drink": {
+    "water": [
+      "water",
+      "eau"
+    ],
+    "juice": [
+      "juice",
+      "jus"
+    ],
+    "soda": [
+      "soda",
+      "boisson gazeuse"
+    ],
+    "alcohol": [
+      "alcohol",
+      "alcool",
+      "wine",
+      "liquor",
+      "spirits",
+      "beer"
+    ]
+  },
+  "dairy": {
+    "milk": [
+      "milk",
+      "lait"
+    ],
+    "cheese": [
+      "cheese",
+      "fromage"
+    ],
+    "yoghurt": [
+      "yoghurt",
+      "yaourt"
+    ],
+    "cream": [
+      "cream",
+      "creme"
+    ]
+  },
+  "cooking ingredient": {
+    "salsa": [
+      "salsa",
+      "sauce"
+    ],
+    "spice": [
+      "spice",
+      "epice",
+      "seasoning",
+      "assaisonnement",
+      "zest",
+      "pepper",
+      "piment"
+    ],
+    "salt": [
+      "salt",
+      "sel",
+      "sodium"
+    ],
+    "herb": [
+      "herb",
+      "herbe"
+    ],
+    "condiment": [
+      "condiment",
+      "seasoning",
+      "flavouring",
+      "assaisonnement"
+    ]
+  },
+  "fat": {
+    "oil": [
+      "oil",
+      "huile",
+      "graisse"
+    ],
+    "butter": [
+      "butter",
+      "beurre"
+    ]
+  },
+  "sugary product": {
+    "sugar": [
+      "sugar",
+      "sucre",
+      "cassonade"
+    ],
+    "jam": [
+      "jam",
+      "confiture"
+    ],
+    "candy": [
+      "candy",
+      "bonbon",
+      "bonbon",
+      "caramel",
+      "sucrerie",
+      "confiserie",
+      "friandise"
+    ],
+    "chocolate": [
+      "chocolate",
+      "chocolat"
+    ],
+    "ice cream": [
+      "ice cream",
+      "glace",
+      "sorbet",
+      "gelato"
+    ]
+  }
+}
