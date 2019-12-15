@@ -5,8 +5,8 @@ feature: https://her2.org.uk/wp-content/uploads/2019/07/featured-organic-food-10
 permalink: /story/
 plots:
   -
-    json_file: "bar.json"
-    html_tag: "#vis"
+    json_file: "plots/nutritional_score.json"
+    html_tag: "#nutritional_score"
   -
     json_file: "bar.json"
     html_tag: "#vis2"
@@ -22,7 +22,7 @@ Bah oui regarde !
 
 ## Un plot ta mere
 
-<div id="vis"> </div>
+<div id="nutritional_score"> </div>
 
 ## Ah ouais
 
