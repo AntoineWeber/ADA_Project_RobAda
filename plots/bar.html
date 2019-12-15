@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@3.4.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@5"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"width": 400, "height": 300, "strokeOpacity": 0}, "mark": {"tooltip": null}, "axis": {"grid": false}, "bar": {"cornerRadius": 3, "stroke": "blue", "strokeWidth": 3}}, "data": {"name": "data-2e196172846ff8f7b7b7502dce53ebe0"}, "mark": "bar", "encoding": {"color": {"type": "nominal", "field": "type", "title": "Type of product"}, "column": {"type": "nominal", "field": "score", "title": "Nutritional score"}, "strokeOpacity": {"condition": {"value": 1, "selection": "selector036"}, "value": 0}, "tooltip": [{"type": "quantitative", "field": "proportion", "format": ".1%"}], "x": {"type": "ordinal", "axis": null, "field": "type", "title": null}, "y": {"type": "quantitative", "field": "proportion", "title": "Proportion of products"}}, "selection": {"selector036": {"type": "single", "on": "mouseover", "nearest": false, "empty": "none", "encodings": ["y"]}}, "$schema": "https://vega.github.io/schema/vega-lite/v3.4.0.json", "datasets": {"data-2e196172846ff8f7b7b7502dce53ebe0": [{"score": "a", "proportion": 0.2200339558573854, "type": "bio"}, {"score": "b", "proportion": 0.16548850131193085, "type": "bio"}, {"score": "c", "proportion": 0.22407778978237383, "type": "bio"}, {"score": "d", "proportion": 0.24377218706590523, "type": "bio"}, {"score": "e", "proportion": 0.1466275659824047, "type": "bio"}, {"score": "a", "proportion": 0.13795346842817327, "type": "regular"}, {"score": "b", "proportion": 0.13349179006823744, "type": "regular"}, {"score": "c", "proportion": 0.21447846048069316, "type": "regular"}, {"score": "d", "proportion": 0.31110503241832577, "type": "regular"}, {"score": "e", "proportion": 0.20297124860457036, "type": "regular"}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
