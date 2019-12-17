@@ -1,6 +1,6 @@
 ---
 layout: story
-title: "Data story: Bio vs regular"
+title: "Organic products VS Standard products"
 feature: https://her2.org.uk/wp-content/uploads/2019/07/featured-organic-food-1024x535-810x423.jpg
 permalink: /story/
 plots:
@@ -24,7 +24,7 @@ plots:
 
 \- 1: Alright, here ya go...
 
-<div id="wordcloud"> </div>
+![tarace](./plots/wordcloud.png)
 
 \- 2:  Weeeeee!!! But wait... some words are misspelled.
 
