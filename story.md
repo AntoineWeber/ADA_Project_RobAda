@@ -7,10 +7,6 @@ plots:
   -
     json_file: "plots/nutritional_score.json"
     html_tag: "#nutritional_score"
-  -
-    html_file: "plots/radarplot.html"
-    html_tag: "#radarplot"
-  
 ---
 
 # Free Diving into Food Facts
@@ -77,7 +73,7 @@ Well... It does not seem the level of food processing has any real impact on the
 
 What about the additives then? They are often source of controversy, and some are even believed to be cancerous. Considering the same groups of products, let us observe the presence of additives in each category. 
 
-<div id="radarplot"> </div>
+<script src="plots/radarplot.html"></script>
 
 That is interesting! The proportions of additives is in general drastically different when looking at bio products vs. regular ones. 
 
