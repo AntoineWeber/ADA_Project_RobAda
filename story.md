@@ -7,6 +7,9 @@ plots:
   -
     json_file: "plots/nutritional_score.json"
     html_tag: "#nutritional_score"
+  -
+    image_file: "plots/wordcloud.png"
+    html_tag: "#wordcloud"
 ---
 
 ## Un plot ta mere
@@ -21,7 +24,7 @@ plots:
 
 \- 1: Alright, here ya go...
 
-<img src="plots/wordcloud.png" alt="wordcloud" style="zoom:80%;" />
+<div id="wordcloud"> </div>
 
 \- 2:  Weeeeee!!! But wait... some words are misspelled.
 
