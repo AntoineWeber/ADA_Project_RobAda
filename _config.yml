@@ -1,6 +1,6 @@
 # Site
 title:              "100% organic"
-description:        "Is there a real quantitative difference between the often more expensive organic products and standard products in terms of healthiness? In this study, we try to answer such a question by investigating the Open Food Facts dataset and providing intuitive interactive visualizations."
+description:        "Are organic products better for your health than ordinary products ? Should you start or continue investing more money into such products ?" # "Is there a real quantitative difference between the often more expensive organic products and standard products in terms of healthiness? In this study, we try to answer such a question by investigating the Open Food Facts dataset and providing intuitive interactive visualizations."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
