@@ -22,15 +22,19 @@ There is even an [app](https://play.google.com/store/apps/details?id=org.openfoo
 
 Open Food Facts contains three scores that can be used to evaluate a product: 
 
-- uk
+- UK Food Standards Agency's (FSA)
 - France
 - nova
 
-## Comparing bio and regular products
+## Is Bio better?
 
-Are bio products really healthier? Let us try to get an intuition by observing the score on bio and non-bio products for different food categories. 
+Nowadays, most products come in two flavors: bio or non-bio. Consequently, while shopping, we are always confronted to bio products whose costs are about 20-40% higher than their non-bio equivalent. Such a price increase must imply a more responsible production and therefore better product quality, right? 
 
-To do so, we will observe groups of products that were chosen based on their categories. We can therefore compare meat related products or dairies independently. It would be interesting to see whether bio and non-bio products show different characteristics based on their categories. 
+But are bio products really healthier? Let us try to get a first intuition by observing the score on bio and non-bio products for different food categories. 
+
+### French nutrition grade
+
+To do so, we will observe groups of products that were chosen based on their categories. As an example, one could observe meat related products independently. 
 
 Let us start with their french nutrition grade:
 
@@ -40,7 +44,9 @@ Let us start with their french nutrition grade:
 
 Interestingly, while bio and non-bio scores distributions are similar, the bio products have greater proportions of products related to better scores while this tendency is inverted for the non-bio products. This is a first hint that bio products may indeed be healthier. 
 
-What about another score? Let us look at what the UK nutrition score has to tell us:
+What about another score? Let us look at what the UK nutrition score has to tell us.
+
+### UK nutrition grade
 
 <img src="nutrition-score-uk_100g_meat.png" alt="nutrition-score-uk_100g_meat" style="zoom:80%;" />
 
@@ -48,7 +54,13 @@ What about another score? Let us look at what the UK nutrition score has to tell
 
 The same conclusion arises from these last graphs. While both distributions have similar shape, bio products have larger proportions of products with better nutrition score than non-bio products. 
 
+### So what now?
+
+The previous scores tend to be in favor of the bio products. 
+
 **But why is it the case actually? Why do bio products tend to be healthier?**
+
+### Nova group
 
 Does the degree of transformation of the products have something to do with it? Let us see if any tendency is observable:
 
@@ -58,7 +70,20 @@ Does the degree of transformation of the products have something to do with it? 
 
 Well... It does not seem the level of food processing has any real impact on the healthiness of a product. Bio as well as non-bio products are relatively strongly pre-processed. 
 
-What about the additives then? They are often source of controversy, and some are even believed to be cancerous. Considering the same groups of products, let us observe the presence of additives in each category. 
+### Additives
+
+What about the additives then? They are often source of controversy, and some are even believed to be cancerous. Let us recall the main types of additives, as listed in [Wikipedia](https://en.wikipedia.org/wiki/Food_additive) (for a more in depth [listing](https://en.wikipedia.org/wiki/E_number)): 
+
+- **Antibiotics** (E700–E799)
+- **Antioxidants/acidity regulators** (E300–E399, used for controlling the [pH](https://en.wikipedia.org/wiki/PH) of foods for stability or to affect activity of enzymes) 
+- **Colorants** (E100–E199, enhance or add colors to the product)
+- **Flavor enhancers** (E600–E699, enhance the food's existing flavor. Some flavor enhancers have their own flavors that are independent of the food.)
+- **Glazing agents, gases and sweeteners** (E900–E999, provide a shiny appearance or protective coating to foods) 
+- **Preservatives** (E200–E299, prevent or inhibit spoilage of food due to [fungi](https://en.wikipedia.org/wiki/Fungus), [bacteria](https://en.wikipedia.org/wiki/Bacteria) and other [microorganisms](https://en.wikipedia.org/wiki/Microorganism))
+- **Thickeners, stabilizers and emulsifiers** (E400–E499, increase the product's [viscosity](https://en.wikipedia.org/wiki/Viscosity) without substantially modifying its other properties)
+- **pH regulators and anti-caking agents** (E500–E599, keep powders such as milk powder from caking or sticking)
+
+Considering the same groups of products, let us observe the presence of additives in each category. 
 
 <img src="radar_meat.png" alt="radar_meat" style="zoom:80%;" />
 
