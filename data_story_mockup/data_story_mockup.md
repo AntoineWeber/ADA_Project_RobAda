@@ -59,13 +59,7 @@ What about another score? Let us look at what the UK nutrition score has to tell
 
 The same conclusion arises from these last graphs. While both distributions have similar shape, bio products have larger proportions of products with better nutrition score than non-bio products. 
 
-### So what now?
-
-The previous scores tend to be in favor of the bio products. 
-
-**But why is it the case actually? Why do bio products tend to be healthier?**
-
-#### Nova group
+### Nova group
 
 Does the degree of transformation of the products have something to do with it? Let us see if any tendency is observable:
 
@@ -73,9 +67,28 @@ Does the degree of transformation of the products have something to do with it? 
 
 <img src="nova_dairies.png" alt="nova_dairies" style="zoom:80%;" />
 
-Well... It does not seem the level of food processing has any real impact on the healthiness of a product. Bio as well as non-bio products are relatively strongly pre-processed in general. 
+Well... While both categories show relatively high levels of processing, the bio products tend to still have slightly better scores. They indeed tend to be less processed, which contributes to their nutritional scores. 
+
+### So what now?
+
+The previous scores tend to be in favor of the bio products. 
+
+**Do other properties also corroborate this claim?** Let us go through 2 more criteria: 
+
+- Nutrition facts
+- Additives
+
+### Why is bio better then?
+
+#### Nutrition facts 
+
+Although the nutrition facts directly impact their nutritional scores, it is interesting to go a bit deeper into the products composition. 
+
+**Goal**: Identify the nutriments that really impact both classes (hence find what makes the difference between the two classes).  Find out where the difference is for each class. 
 
 #### Additives
+
+>  **TODO:** Add correlation map. Illustrate whether additives have impact on nutrition scores. 
 
 What about the additives then? They are often source of controversy, and some are even believed to be cancerous. Let us recall the main types of additives, as listed in [Wikipedia](https://en.wikipedia.org/wiki/Food_additive) (check [this page](https://en.wikipedia.org/wiki/E_number) for a more in depth listing): 
 
@@ -94,18 +107,12 @@ Considering the same groups of products, let us observe the presence of additive
 
 <img src="radar_dairies.png" alt="radar_dairies" style="zoom:80%;" />
 
-That is interesting! The proportions of additives is in general drastically different when looking at bio products vs. regular ones. Less additives are to be found in bio products. 
-
-#### Products composition
-
-
+That is interesting! The proportions of additives is in general drastically different when looking at bio products vs. regular ones. Less additives are to be found in bio products. But do they actually impact the nutritional scores? 
 
 ## Tout doux ma gueule
 
 > **TODO:** Sum up the bar plots of the scores into box-plots or plots with error bars respectively. 
 
 > **TODO:** What about some observations about the composition itself?
-
-> **TODO:** Check if additives are included in the score computations or if they are simply correlated. 
 
 > *Hypothesis*: companies that make the effort to produce bio products also the effort to make healthy products. 
