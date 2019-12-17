@@ -1,7 +1,7 @@
 ---
 layout: story
 title: "Organic products VS Standard products"
-feature: 'assets/img/featureimg.jpg'
+feature: './assets/img/featureimg.jpg'
 permalink: /story/
 plots:
   -
