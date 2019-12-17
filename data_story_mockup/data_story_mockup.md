@@ -34,7 +34,7 @@ But are bio products really healthier? Let us try to get a first intuition by ob
 
 ### French nutrition grade
 
-To do so, we will observe groups of products that were chosen based on their categories. As an example, one could observe meat related products independently. 
+To do so, let us observe groups of products that were chosen based on their categories. As an example, one could observe meat related products independently. 
 
 Let us start with their french nutrition grade:
 
@@ -60,7 +60,7 @@ The previous scores tend to be in favor of the bio products.
 
 **But why is it the case actually? Why do bio products tend to be healthier?**
 
-### Nova group
+#### Nova group
 
 Does the degree of transformation of the products have something to do with it? Let us see if any tendency is observable:
 
@@ -68,11 +68,11 @@ Does the degree of transformation of the products have something to do with it? 
 
 <img src="nova_dairies.png" alt="nova_dairies" style="zoom:80%;" />
 
-Well... It does not seem the level of food processing has any real impact on the healthiness of a product. Bio as well as non-bio products are relatively strongly pre-processed. 
+Well... It does not seem the level of food processing has any real impact on the healthiness of a product. Bio as well as non-bio products are relatively strongly pre-processed in general. 
 
-### Additives
+#### Additives
 
-What about the additives then? They are often source of controversy, and some are even believed to be cancerous. Let us recall the main types of additives, as listed in [Wikipedia](https://en.wikipedia.org/wiki/Food_additive) (for a more in depth [listing](https://en.wikipedia.org/wiki/E_number)): 
+What about the additives then? They are often source of controversy, and some are even believed to be cancerous. Let us recall the main types of additives, as listed in [Wikipedia](https://en.wikipedia.org/wiki/Food_additive) (check [this page](https://en.wikipedia.org/wiki/E_number) for a more in depth listing): 
 
 - **Antibiotics** (E700–E799)
 - **Antioxidants/acidity regulators** (E300–E399, used for controlling the [pH](https://en.wikipedia.org/wiki/PH) of foods for stability or to affect activity of enzymes) 
@@ -89,7 +89,9 @@ Considering the same groups of products, let us observe the presence of additive
 
 <img src="radar_dairies.png" alt="radar_dairies" style="zoom:80%;" />
 
-That is interesting! The proportions of additives is in general drastically different when looking at bio products vs. regular ones. 
+That is interesting! The proportions of additives is in general drastically different when looking at bio products vs. regular ones. Less additives are to be found in bio products. 
+
+#### Products composition
 
 
 
@@ -100,3 +102,5 @@ That is interesting! The proportions of additives is in general drastically diff
 > **TODO:** What about some observations about the composition itself?
 
 > **TODO:** Check if additives are included in the score computations or if they are simply correlated. 
+
+> *Hypothesis*: companies that make the effort to produce bio products also the effort to make healthy products. 
