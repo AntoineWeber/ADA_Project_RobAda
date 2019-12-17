@@ -1,18 +1,18 @@
 ---
 layout: story
 title: "Organic products VS Standard products"
-feature: https://her2.org.uk/wp-content/uploads/2019/07/featured-organic-food-1024x535-810x423.jpg
+feature: 'assets/img/featureimg.jpg'
 permalink: /story/
 plots:
   -
     json_file: "plots/nutritional_score.json"
     html_tag: "#nutritional_score"
 ---
-
+<!--> 
 ## Un plot ta mere
 
 <div id="nutritional_score"> </div>
-
+<!--> 
 # Free Diving into Food Facts
 
 \- 1: Want a fish!
