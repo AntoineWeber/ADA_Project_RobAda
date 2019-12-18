@@ -53,7 +53,7 @@ To do so, let us observe groups of products that were chosen based on their cate
 Let us start with their french nutrition grade:
 
 {::nomarkdown}
-{% include_relative plots/FRnutriscore.html %}
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/1.embed" height="525" width="100%"></iframe>
 {:/}
 
 Interestingly, while bio and non-bio scores distributions are similar, the bio products have greater proportions of products related to better scores while this tendency is inverted for the non-bio products. This is a first hint that bio products may indeed be healthier.
@@ -63,7 +63,7 @@ What about another score? Let us look at what the UK nutrition score has to tell
 ### UK nutrition grade
 
 {::nomarkdown}
-{% include_relative plots/UKnutriscore.html %}
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/6.embed" height="525" width="100%"></iframe>
 {:/}
 
 The same conclusion arises from these last graphs. While both distributions have similar shape, bio products have larger proportions of products with better nutrition score than non-bio products.
@@ -73,7 +73,7 @@ The same conclusion arises from these last graphs. While both distributions have
 Does the degree of transformation of the products have something to do with it? Let us see if any tendency is observable:
 
 {::nomarkdown}
-{% include_relative plots/novascore.html %}
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/8.embed" height="525" width="100%"></iframe>
 {:/}
 
 Well... While both categories show relatively high levels of processing, the bio products tend to still have slightly better scores. They indeed tend to be less processed, which contributes to their nutritional scores.
