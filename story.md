@@ -114,6 +114,10 @@ Considering the same groups of products, let us observe the presence of additive
 {% include_relative plots/radarplot.svg %}
 {:/}
 
+{::nomarkdown}
+{% include_relative plots/plotly.html %}
+{:/}
+
 That is interesting! The proportions of additives is in general drastically different when looking at bio products vs. regular ones. Less additives are to be found in bio products. But do they actually impact the nutritional scores?
 
 ## Tout doux ma gueule
