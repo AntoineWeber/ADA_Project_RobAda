@@ -52,7 +52,9 @@ To do so, let us observe groups of products that were chosen based on their cate
 
 Let us start with their french nutrition grade:
 
-<div id="nutritional_score"> </div>
+{::nomarkdown}
+{% include_relative plots/FRnutriscore.html %}
+{:/}
 
 Interestingly, while bio and non-bio scores distributions are similar, the bio products have greater proportions of products related to better scores while this tendency is inverted for the non-bio products. This is a first hint that bio products may indeed be healthier.
 
@@ -60,9 +62,9 @@ What about another score? Let us look at what the UK nutrition score has to tell
 
 ### UK nutrition grade
 
-<img src="images/nutrition-score-uk_100g_meat.png" alt="nutrition-score-uk_100g_meat" style="zoom:80%;" />
-
-<img src="images/nutrition-score-uk_100g_dairies.png" alt="nutrition-score-uk_100g_dairies" style="zoom:80%;" />
+{::nomarkdown}
+{% include_relative plots/UKnutriscore.html %}
+{:/}
 
 The same conclusion arises from these last graphs. While both distributions have similar shape, bio products have larger proportions of products with better nutrition score than non-bio products.
 
@@ -70,9 +72,9 @@ The same conclusion arises from these last graphs. While both distributions have
 
 Does the degree of transformation of the products have something to do with it? Let us see if any tendency is observable:
 
-<img src="images/nova_meat.png" alt="nova_meat" style="zoom:80%;" />
-
-<img src="images/nova_dairies.png" alt="nova_dairies" style="zoom:80%;" />
+{::nomarkdown}
+{% include_relative plots/novascore.html %}
+{:/}
 
 Well... While both categories show relatively high levels of processing, the bio products tend to still have slightly better scores. They indeed tend to be less processed, which contributes to their nutritional scores.
 
@@ -111,11 +113,7 @@ What about the additives then? They are often source of controversy, and some ar
 Considering the same groups of products, let us observe the presence of additives in each category.
 
 {::nomarkdown}
-{% include_relative plots/radarplot.svg %}
-{:/}
-
-{::nomarkdown}
-{% include_relative plots/plotly.html %}
+{% include_relative plots/additiveplot.html %}
 {:/}
 
 That is interesting! The proportions of additives is in general drastically different when looking at bio products vs. regular ones. Less additives are to be found in bio products. But do they actually impact the nutritional scores?
