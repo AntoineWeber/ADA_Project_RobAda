@@ -3,10 +3,6 @@ layout: story
 title: "bio products VS Standard products"
 feature: './assets/img/featureimg.jpg'
 permalink: /story/
-plots:
-  -
-    json_file: "plots/nutritional_score.json"
-    html_tag: "#nutritional_score"
 ---
 
 # {{ site.title }}
