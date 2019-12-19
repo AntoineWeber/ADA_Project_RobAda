@@ -141,7 +141,7 @@ That is interesting! The proportions of additives is in general drastically diff
 
 On most products that are sold in a supermarket, there is a table on the back of the packaging, indicating the quantities of nutrients (sugar, salt, fat, fibers, ...) contained in a portion of 100g of the product. This is quite useful to know when is inside a product, and can help consumers decide on one product or the other.
 
-<img src="images/nutrient_table.jpeg"  alt="nutritional_score"   style="zoom:50%;"  />
+<img src="images/nutrient_table.jpeg"  alt="Nutriment table"   style="zoom:50%;"  />
 
 The average quantity of the main nutrients contained in the products is shown in the following figure, for each category.
 
