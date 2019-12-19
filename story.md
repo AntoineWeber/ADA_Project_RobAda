@@ -139,9 +139,21 @@ That is interesting! The proportions of additives is in general drastically diff
 
 ## Nutrient composition
 
+On most products that are sold in a supermarket, there is a table on the back of the packaging, indicating the quantities of nutrients (sugar, salt, fat, fibers, ...) contained in a portion of 100g of the product. This is quite useful to know when is inside a product, and can help consumers decide on one product or the other.
+
+<img src="images/nutrient_table.jpeg"  alt="nutritional_score"   style="zoom:50%;"  />
+
+The average quantity of the main nutrients contained in the products is shown in the following figure, for each category.
+
 {::nomarkdown}
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/21.embed" height="525" width="100%"></iframe>
 {:/}
+
+There are quite a few interesting remarks that can be made regarding the results:
+* There is less salt in organic products than in regular ones, whatever the category.
+* The quantities of fat is similar for regular and organic products, except for the `Meat, fish, egg` category. In this case, there is clearly less fat in organic products. For meat and fish, this is usually a sign of better quality.
+* The quantity of proteins and sugar are similar for organic and regular products.
+* There are more fibers and traces of fruit in organic products. This is highlighting the fact that the products are less processed than regular ones. This is especially striking in the `Beverage` category.
 
 ## Tout doux ma gueule
 
