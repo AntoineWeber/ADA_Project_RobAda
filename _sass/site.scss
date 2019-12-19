@@ -221,8 +221,16 @@ header .entry-meta {
     }
 }
 
-.titleWithImage {
+header.titleWithImage {
+	width: 100%;
+	height: 100%;
+	background: black;
+  overflow: hidden;
+}
+
+div.titleWithImage {
   background-size: cover;
   background-position: center;
   background-image: url(/path/to/backup/image); // Your backup background image
+	opacity: 0.4;
 }
