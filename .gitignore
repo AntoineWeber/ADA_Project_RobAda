@@ -10,9 +10,6 @@ plotly_keys.csv
 # html files
 html/
 
-# images
-images/
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
