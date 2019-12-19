@@ -118,8 +118,6 @@ Although the nutrition facts directly impact their nutritional scores, it is int
 
 #### Additives
 
->  **TODO:** Add correlation map. Illustrate whether additives have impact on nutrition scores.
-
 What about the additives then? They are often source of controversy, and some are even believed to be cancerous. Let us recall the main types of additives, as listed in [Wikipedia](https://en.wikipedia.org/wiki/Food_additive) (check [this page](https://en.wikipedia.org/wiki/E_number) for a more in depth listing):
 
 - **Antibiotics** (E700–E799)
@@ -131,13 +129,15 @@ What about the additives then? They are often source of controversy, and some ar
 - **Thickeners, stabilizers and emulsifiers** (E400–E499, increase the product's [viscosity](https://en.wikipedia.org/wiki/Viscosity) without substantially modifying its other properties)
 - **pH regulators and anti-caking agents** (E500–E599, keep powders such as milk powder from caking or sticking)
 
-Considering the same groups of products, let us observe the presence of additives in each category.
+Some of these additives are natural while some others are chemically synthetized and added to the products to enhance their flavor, appearance or texture or even to extend the products' life. Hence, while some are indeed harmless, it is not clear whether some others should be avoided at all risks or consumed with moderation. Due to the ambiguity of whether an additive may be harmful or not, it can be considered a good practice to try to consume as little additives as possible.
+
+By definition, bio products should by definition undergo as little processings as possible. Hence intuitively they should contain less additives right ? Well let's see what the data tells us. To ensure a fair comparison between bio and standard products, each category has been investigated independently.
 
 {::nomarkdown}
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/8.embed" height="525" width="100%"></iframe>
 {:/}
 
-That is interesting! The proportions of additives is in general drastically different when looking at bio products vs. regular ones. Less additives are to be found in bio products. But do they actually impact the nutritional scores?
+That is interesting! The proportions of additives is in general drastically different when looking at bio products vs. standard products. Indeed, as stated before, our intuition was right ! **There is in general much less additives in bio products versus standard ones.** In particular, there is almost no flavour enhancers in bio products ! Overall the general tendency is that the bio representation of the category is inscribed the standard representation, which shows a smaller amount of additives in bio products. There are however some exceptions, such as the anti-caking agents in the cereal based category.
 
 ## Nutrient composition
 
