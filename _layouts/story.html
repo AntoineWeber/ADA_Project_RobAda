@@ -36,13 +36,5 @@ layout: compress
     <!-- MathJax -->
     <script async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     {% endif %}
-    <!-- Parse vega plots -->
-    <script type="text/javascript">
-
-    {% for plot in page.plots %}
-    vegaEmbed("{{ plot.html_tag }}", "{{ site.url }}/{{ plot.json_file }}");
-    {% endfor %}
-
-    </script>
 </body>
 </html>
