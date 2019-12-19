@@ -1,6 +1,6 @@
 ---
 layout: story
-title: "Organic products VS Standard products"
+title: "bio products VS Standard products"
 feature: './assets/img/featureimg.jpg'
 permalink: /story/
 plots:
@@ -11,7 +11,7 @@ plots:
 
 # {{ site.title }}
 
-Nowadays, most products come in two flavors: bio or non-bio. Consequently, while shopping, we are always confronted to bio products whose costs are about 20-40% higher than their non-bio equivalent. Such a price increase must imply a more responsible production and therefore better product quality, right? **So concretely, are bio products healthier than regular ones?**
+Nowadays, most products come in two flavors: bio or standard. Consequently, while shopping, we are always confronted to bio products whose costs are about 20-40% higher than their standard equivalent. Such a price increase must imply a more responsible production and therefore better product quality, right? **So concretely, are bio products healthier than regular ones?**
 
 ### Open Food Facts
 
@@ -21,7 +21,7 @@ There is even an [app](https://play.google.com/store/apps/details?id=org.openfoo
 
 #### Product categories
 
-To carry out a more rigorous analysis, we split the Open Food Facts dataset into *8 categories of products*:
+To correctly compare these two categories, one should be careful with what products are actually being compared to avoid comparing oil with salad, for instance. Hence, to carry out a more rigorous analysis, we split the Open Food Facts dataset into *8 categories of products*:
 * Meat, fish, egg
 * Fruit, vegetable
 * Cereal based
@@ -31,26 +31,30 @@ To carry out a more rigorous analysis, we split the Open Food Facts dataset into
 * Spices, salsa, condiments
 * Sugary products
 
-If you are curious about which kind of products goes into each category, you can have a look at the following wordclouds. The common product names are bigger:
+All these categories actually embeds different subcategories that were merged for our analysis. If the reader is curious about which kind of products goes into each category, he have a look at the following wordclouds. The bigger the word, the most common is the product.
 
-**TODO: change plot number**
+**TODO: change plot number and actually show correct plot**
 {::nomarkdown}
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/10.embed" height="525" width="100%"></iframe>
 {:/}
 
-Let us start our investigations with the nutrition scores. But first, some definitions.
+**TODO would be super nice to have the main question written in huge on the screen at this point.**
+Now that the data is ready, let's dive into the main question of this analysis being: **Are bio products better than standard products ?**
+
+
+Let's start the investigations with the nutrition scores. But first, some definitions.
+
+**TODO : As I already mentioned, the switch between questions should be marked with a big header, to actually illustrate better the switch between main investigations**
 
 ## Nutritional scores
 
-Open Food Facts contains two scores that can be used to evaluate a product:
+The Open Food Facts database contains two scores that can be used to evaluate a product:
 
 - **French and UK Nutri-score**: The Nutri-Score is a nutrition label that converts the nutritional value of products into a simple code consisting of 5 letters, each with its own color. The aim of this code is to help consumers take into account the nutritional quality of the products they are buying.
 
-  Each product is then awarded a score based on a formula that takes into account the nutrients to avoid (energy value and the amount of sugars, saturated fats and salt) and the positive ones (the amount of fiber, protein, fruit, vegetables and nuts).  The UK score is essentially a finer version of the French score. It is therefore possible to see at a glance which products are recommended and which should be avoided.
+  Each product is then awarded a score based on a formula that takes into account the nutrients to avoid (energy value and the amount of sugars, saturated fats and salt) and the positive ones (the amount of fiber, protein, fruit, vegetables and nuts).  The UK score is essentially a finer version of the French score. It is therefore possible to see at a glance which products are recommended and which ones should be avoided.
 
   <img src="images/nutri_score_def.png"  alt="nutritional_score"   style="zoom:90%;"  />
-
-  {% include questions.html in_text=true text="Nova group" image_url="../images/carrot.jpg" %}
 
 - **NOVA group**:  NOVA helps people group foods according to the extent and purpose of the processing they undergo. Food processing as identified by NOVA involved physical, biological and chemical processes that occur after foods are separated from nature, and before they are consumed or used in the preparation of dishes and meals.
 
@@ -63,9 +67,9 @@ Open Food Facts contains two scores that can be used to evaluate a product:
 
 ## Is Bio better?
 
-Nowadays, most products come in two flavors: bio or non-bio. Consequently, while shopping, we are always confronted to bio products whose costs are about 20-40% higher than their non-bio equivalent. Such a price increase must imply a more responsible production and therefore better product quality, right?
+Nowadays, most products come in two flavors: bio or standard. Consequently, while shopping, we are always confronted to bio products whose costs are about 20-40% higher than their standard equivalent. Such a price increase must imply a more responsible production and therefore better product quality, right?
 
-But are bio products really healthier? Let us try to get a first intuition by observing the score on bio and non-bio products for different food categories.
+But are bio products really healthier? Let us try to get a first intuition by observing the score on bio and standard products for different food categories.
 
 ### French nutrition grade
 
@@ -77,7 +81,7 @@ Let us start with their french nutrition grade:
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/10.embed" height="525" width="100%"></iframe>
 {:/}
 
-Interestingly, while bio and non-bio scores distributions are similar, the bio products have greater proportions of products related to better scores while this tendency is inverted for the non-bio products. This is a first hint that bio products may indeed be healthier.
+Interestingly, while bio and standard scores distributions are similar, the bio products have greater proportions of products related to better scores while this tendency is inverted for the standard products. This is a first hint that bio products may indeed be healthier.
 
 What about another score? Let us look at what the UK nutrition score has to tell us.
 
@@ -87,7 +91,7 @@ What about another score? Let us look at what the UK nutrition score has to tell
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/15.embed" height="525" width="100%"></iframe>
 {:/}
 
-The same conclusion arises from these last graphs. While both distributions have similar shape, bio products have larger proportions of products with better nutrition score than non-bio products.
+The same conclusion arises from these last graphs. While both distributions have similar shape, bio products have larger proportions of products with better nutrition score than standard products.
 
 ### Nova group
 
@@ -152,10 +156,10 @@ The average quantity of the main nutrients contained in the products is shown in
 {:/}
 
 There are quite a few interesting remarks that can be made regarding the results:
-* There is less salt in organic products than in regular ones, whatever the category.
-* The quantities of fat is similar for regular and organic products, except for the `Meat, fish, egg` category. In this case, there is clearly less fat in organic products. For meat and fish, this is usually a sign of better quality.
-* The quantity of proteins and sugar are similar for organic and regular products.
-* There are more fibers and traces of fruit in organic products. This is highlighting the fact that the products are less processed than regular ones. This is especially striking in the `Beverage` category.
+* There is less salt in bio products than in regular ones, whatever the category.
+* The quantities of fat is similar for regular and bio products, except for the `Meat, fish, egg` category. In this case, there is clearly less fat in bio products. For meat and fish, this is usually a sign of better quality.
+* The quantity of proteins and sugar are similar for bio and regular products.
+* There are more fibers and traces of fruit in bio products. This is highlighting the fact that the products are less processed than regular ones. This is especially striking in the `Beverage` category.
 
 ## Tout doux ma gueule
 
@@ -163,6 +167,6 @@ There are quite a few interesting remarks that can be made regarding the results
 
 ## Conclusion
 
-**TODO but overall difference between regular/organic.**
+**TODO but overall difference between regular/bio.**
 
-**TODO: change all occurences of bio with organic .**
+**TODO: change all occurences of bio with bio .**
