@@ -145,7 +145,9 @@ That is interesting! The proportions of additives is in general drastically diff
 
 ## Nutrient composition
 
-{% include section.html in_text=true text=Nutrient composition" image_url="assets/img/3245402894_9a4e7ef640_o.jpg" %}
+{::nomarkdown}
+{% include section.html in_text=true text=Nutrient composition" image_url="images/carrot.jpg" %}
+{:/}
 
 On most products that are sold in a supermarket, there is a table on the back of the packaging, indicating the quantities of nutrients (sugar, salt, fat, fibers, ...) contained in a portion of 100g of the product. This is quite useful to know when is inside a product, and can help consumers decide on one product or the other.
 
