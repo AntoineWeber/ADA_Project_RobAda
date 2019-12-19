@@ -29,7 +29,7 @@ To correctly compare these two categories, one should be careful with what produ
 
 All these categories actually embeds different subcategories that were merged for our analysis. If the reader is curious about which kind of products goes into each category, he have a look at the following wordclouds. The bigger the word, the most common is the product.
 {::nomarkdown}
-<img src="images/wordcloud_categories.png"  alt="wordcloud_categories"   style="zoom:50%;"  />
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/36.embed" height="525" width="100%"></iframe>
 {:/}
 
 **TODO would be super nice to have the main question written in huge on the screen at this point.**
