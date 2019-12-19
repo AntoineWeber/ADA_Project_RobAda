@@ -57,7 +57,7 @@
       "grain"
     ]
   },
-  "cereal": {
+  "cereal based": {
     "pasta": [
       "pasta",
       "pate"
@@ -79,7 +79,7 @@
       "biscuit"
     ]
   },
-  "drink": {
+  "beverage": {
     "water": [
       "water",
       "eau"
@@ -119,7 +119,7 @@
       "creme"
     ]
   },
-  "cooking ingredient": {
+  "spices, salsa, condiment": {
     "salsa": [
       "salsa",
       "sauce"
@@ -149,7 +149,7 @@
       "assaisonnement"
     ]
   },
-  "fat": {
+  "oil, butter": {
     "oil": [
       "oil",
       "huile",
