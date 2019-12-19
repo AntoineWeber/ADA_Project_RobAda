@@ -42,24 +42,7 @@ Let's start the investigations with the nutrition scores. But first, some defini
 
 **TODO : As I already mentioned, the switch between questions should be marked with a big header, to actually illustrate better the switch between main investigations**
 
-## Nutritional scores
 
-The Open Food Facts database contains two scores that can be used to evaluate a product:
-
-- **French and UK Nutri-score**: The Nutri-Score is a nutrition label that converts the nutritional value of products into a simple code consisting of 5 letters, each with its own color. The aim of this code is to help consumers take into account the nutritional quality of the products they are buying.
-
-  Each product is then awarded a score based on a formula that takes into account the nutrients to avoid (energy value and the amount of sugars, saturated fats and salt) and the positive ones (the amount of fiber, protein, fruit, vegetables and nuts).  The UK score is essentially a finer version of the French score. It is therefore possible to see at a glance which products are recommended and which ones should be avoided.
-
-  <img src="images/nutri_score_def.png"  alt="nutritional_score"   style="zoom:90%;"  />
-
-- **NOVA group**:  NOVA helps people group foods according to the extent and purpose of the processing they undergo. Food processing as identified by NOVA involved physical, biological and chemical processes that occur after foods are separated from nature, and before they are consumed or used in the preparation of dishes and meals.
-
-   The values of this group are {1,2,3,4}
-
-  - Group 1 - Unprocessed or minimally processed foods: Unprocessed (or natural) foods are edible parts of plants (seeds, fruits, leaves, stems, roots) or of animals (muscle, offal, eggs, milk), and also fungi, algae and water, after separation from nature.
-  - Group 2 - Processed culinary ingredients: Processed culinary ingredients, such as oils, butter, sugar and salt, are substances derived from Group 1 foods or from nature by processes that include pressing, refining, grinding, milling and drying.
-  - Group 3 - Processed foods: Processed foods, such as bottled vegetables, canned fish, fruits in syrup, cheeses and freshly made breads, are made essentially by adding salt, oil, sugar or other substances from Group 2 to Group 1 foods.
-  - Group 4 - Ultra-processed food and drink products: Ultra-processed foods, such as soft drinks, sweet or savory packaged snacks, reconstituted meat products and pre-prepared frozen dishes.
 
 **TODO: enlever ça et simplement introduire qu'on dive dans l'analyse des nutrition scores**
 ## Is Bio better?
@@ -70,39 +53,50 @@ But are bio products really healthier? Let us try to get a first intuition by ob
 
 ### French nutrition grade
 
-To do so, let us observe groups of products that were chosen based on their categories. As an example, one could observe meat related products independently.
+The French Nutri-Score is a nutrition label that converts the nutritional value of a product into a simple letter. There are 5 letters in total, each with its own color, A being the best and E the worst. 
 
-Let us start with their french nutrition grade:
+The score is based on a formula that takes into account the properties to avoid (high energy values and the amount of sugars, saturated fats and salt) and the positive ones (the amount of fibers, proteins, fruit, vegetables and nuts). 
 
 {::nomarkdown}
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/10.embed" height="525" width="100%"></iframe>
 {:/}
 
-Interestingly, while bio and standard scores distributions are similar, the bio products have greater proportions of products related to better scores while this tendency is inverted for the standard products. This is a first hint that bio products may indeed be healthier.
+Interestingly, both organic and standard products have similar grades distributions. However organic products tend to have in general better scores. 
 
-What about another score? Let us look at what the UK nutrition score has to tell us.
+The tendency is that for good grades (e.g. A or B), the proportion of organic products is higher than the one of the standard products. It is inverted for bad grades (e.g. D or E). 
+
+Some execeptions exist for the beverages for instance but this observation holds in general. 
 
 ### UK nutrition grade
+
+The UK score is essentially a finer version of the French score. Its range goes from -10 (best) to 40 (worst). 
 
 {::nomarkdown}
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/15.embed" height="525" width="100%"></iframe>
 {:/}
 
-The same conclusion arises from these last graphs. While both distributions have similar shape, bio products have larger proportions of products with better nutrition score than standard products.
+This score, which is essentially a finer version of the french nutri-score, also displays similar distributions between the two classes of products. Indeed, the shift of the organic products towards better scores is again visible here. 
 
 ### Nova group
 
-Does the degree of transformation of the products have something to do with it? Let us see if any tendency is observable:
+The NOVA group helps people classify foods according to the extent and purpose of the processing they underwent. 
+
+The values of this group are {1,2,3,4}:
+
+    Group 1 - Unprocessed or minimally processed foods.
+    Group 2 - Processed culinary ingredients.
+    Group 3 - Processed foods.
+    Group 4 - Ultra-processed food and drink products.
 
 {::nomarkdown}
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/6.embed" height="525" width="100%"></iframe>
 {:/}
 
-Well... While both categories show relatively high levels of processing, the bio products tend to still have slightly better scores. They indeed tend to be less processed, which contributes to their nutritional scores.
+Well… While both categories show relatively high levels of processing, the organic products tend to still have slightly better scores. They indeed tend to be less processed, which probably contributes to their nutritional scores. 
 
 ### So what now?
 
-**TODO: blabla more**
+**TODO: blabla more** or **less**!
 The previous scores tend to be in favor of the bio products.
 
 **Do other properties also corroborate this claim?** Let us go through 2 more criteria:
@@ -110,11 +104,27 @@ The previous scores tend to be in favor of the bio products.
 - Nutrition facts
 - Additives
 
-#### Nutrition facts
-
 Although the nutrition facts directly impact their nutritional scores, it is interesting to go a bit deeper into the products composition.
 
-**Goal**: Identify the nutriments that really impact both classes (hence find what makes the difference between the two classes).  Find out where the difference is for each class.
+#### Nutrient composition
+
+{% include section.html text="Nutrient composition" image_url="images/carrot.jpg" %}
+
+Instead of solely relying on the nutritional scores, let us see for ourselves the main nutrients found in the two categories of products. The following plot shows the quantity of the selected nutrients per category of products. 
+
+<img src="images/nutrient_table.jpeg"  alt="Nutriment table"   style="zoom:50%;"  />
+
+The average quantity of the main nutrients contained in the products is shown in the following figure, for each category.
+
+{::nomarkdown}
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/21.embed" height="525" width="100%"></iframe>
+{:/}
+
+There are quite a few interesting remarks that can be made regarding the results:
+* There is less salt in bio products than in regular ones, whatever the category.
+* The quantities of fat is similar for regular and bio products, except for the `Meat, fish, egg` category. In this case, there is clearly less fat in bio products. For meat and fish, this is usually a sign of better quality.
+* The quantity of proteins and sugar are similar for bio and regular products.
+* There are more fibers and traces of fruit in bio products. This is highlighting the fact that the products are less processed than regular ones. This is especially striking in the `Beverage` category.
 
 #### Additives
 
@@ -139,25 +149,7 @@ By definition, bio products should by definition undergo as little processings a
 
 That is interesting! The proportions of additives is in general drastically different when looking at bio products vs. standard products. Indeed, as stated before, our intuition was right ! **There is in general much less additives in bio products versus standard ones.** In particular, there is almost no flavour enhancers in bio products ! Overall the general tendency is that the bio representation of the category is inscribed the standard representation, which shows a smaller amount of additives in bio products. There are however some exceptions, such as the anti-caking agents in the cereal based category.
 
-## Nutrient composition
 
-{% include section.html text="Nutrient composition" image_url="images/carrot.jpg" %}
-
-On most products that are sold in a supermarket, there is a table on the back of the packaging, indicating the quantities of nutrients (sugar, salt, fat, fibers, ...) contained in a portion of 100g of the product. This is quite useful to know when is inside a product, and can help consumers decide on one product or the other.
-
-<img src="images/nutrient_table.jpeg"  alt="Nutriment table"   style="zoom:50%;"  />
-
-The average quantity of the main nutrients contained in the products is shown in the following figure, for each category.
-
-{::nomarkdown}
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/21.embed" height="525" width="100%"></iframe>
-{:/}
-
-There are quite a few interesting remarks that can be made regarding the results:
-* There is less salt in bio products than in regular ones, whatever the category.
-* The quantities of fat is similar for regular and bio products, except for the `Meat, fish, egg` category. In this case, there is clearly less fat in bio products. For meat and fish, this is usually a sign of better quality.
-* The quantity of proteins and sugar are similar for bio and regular products.
-* There are more fibers and traces of fruit in bio products. This is highlighting the fact that the products are less processed than regular ones. This is especially striking in the `Beverage` category.
 
 ## Tout doux ma gueule
 
