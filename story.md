@@ -13,11 +13,30 @@ plots:
 
 Nowadays, most products come in two flavors: bio or non-bio. Consequently, while shopping, we are always confronted to bio products whose costs are about 20-40% higher than their non-bio equivalent. Such a price increase must imply a more responsible production and therefore better product quality, right? **So concretely, are bio products healthier than regular ones?**
 
+### Open Food Facts
+
 To explore this question, we based our exploration on the [Open Food Facts](https://fr.openfoodfacts.org/) dataset, regrouping millions of products from all around the world, while the majority of the products originate from France and the USA. It provides insights on their composition, nutritional score, the place they are sold and many other information.  A complete list of all the fields available can be found [here](https://static.openfoodfacts.org/data/data-fields.txt).
 
 There is even an [app](https://play.google.com/store/apps/details?id=org.openfoodfacts.scanner&hl=fr_CH) based on the dataset which allows the user to scan the bar-code of a product and immediately get an evaluation of the product.
 
-<img src="images/wordcloud.png" alt="wordcloud" style="zoom:80%;" />
+#### Product categories
+
+To carry out a more rigorous analysis, we split the Open Food Facts dataset into *8 categories of products*:
+* Meat, fish, egg
+* Fruit, vegetable
+* Cereal based
+* beverages
+* Dairy
+* Oil, butter
+* Spices, salsa, condiments
+* Sugary products
+
+If you are curious about which kind of products goes into each category, you can have a look at the following wordclouds. The common product names are bigger:
+
+**TODO: change plot number**
+{::nomarkdown}
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/10.embed" height="525" width="100%"></iframe>
+{:/}
 
 Let us start our investigations with the nutrition scores. But first, some definitions.
 
@@ -126,8 +145,10 @@ That is interesting! The proportions of additives is in general drastically diff
 
 ## Tout doux ma gueule
 
-> **TODO:** Sum up the bar plots of the scores into box-plots or plots with error bars respectively.
-
-> **TODO:** What about some observations about the composition itself?
-
 > *Hypothesis*: companies that make the effort to produce bio products also the effort to make healthy products.
+
+## Conclusion
+
+**TODO but overall difference between regular/organic.**
+
+**TODO: change all occurences of bio with organic .**
