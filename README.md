@@ -17,6 +17,8 @@ To compare bio and regular products, the group had to define different factors o
   2. Are there any differences in terms of presence of additives ?
   3. Is the difference in processing of these products induce a difference in terms of their composition ?
 
+Each of them were investigated individually to observe whether a distinction between these two product categories could emerge from them. Then, the conclusion of this work regroups all the different analysis to draw conclusions on the main question being: Is there a difference between these products ?
+
 # Dataset
 Lettuce analyse this dataset: [Open Food Fact database](https://world.openfoodfacts.org/data).  
 The dataset is built as part of a collaborative project to build a free and open database of alimentary items commercially available worldwide. It is stored as a `.csv` file containing several fields (not always indicated), typically the list of ingredients of the product, the nutritional table (usually indicated on the back of the product), nutritional scores, the brand and distributor, the packaging of the product, and more. The raw dataset is very unbalanced in terms of organic and regular products. Hence, the data cleaning and pre-processing part was crucial in order to provide meaningful and un-biased analysis.
@@ -33,3 +35,5 @@ To complement this dataset and filter the different products into main categorie
 **Lucas Wälti**: Debugging of data processing / Data story writer / Categories creator / Merge master.
 
 **Antoine Weber**: Data processing / Additives analysis / Interactive plots master / Data story writer.
+
+These are representative subjects. As a matter of facts nearly all team members helped and participated for all parts of this project. It is hence expected that all team members will participate to prepare the final presentation.
