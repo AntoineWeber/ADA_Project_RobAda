@@ -83,10 +83,10 @@ The NOVA group helps people classify foods according to the extent and purpose o
 
 The values of this group are {1,2,3,4}:
 
-    Group 1 - Unprocessed or minimally processed foods.
-    Group 2 - Processed culinary ingredients.
-    Group 3 - Processed foods.
-    Group 4 - Ultra-processed food and drink products.
+* Group 1 - Unprocessed or minimally processed foods.
+* Group 2 - Processed culinary ingredients.
+* Group 3 - Processed foods.
+* Group 4 - Ultra-processed food and drink products.
 
 {::nomarkdown}
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/6.embed" height="525" width="100%"></iframe>
