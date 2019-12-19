@@ -63,7 +63,7 @@ What about another score? Let us look at what the UK nutrition score has to tell
 ### UK nutrition grade
 
 {::nomarkdown}
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/6.embed" height="525" width="100%"></iframe>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/3.embed" height="525" width="100%"></iframe>
 {:/}
 
 The same conclusion arises from these last graphs. While both distributions have similar shape, bio products have larger proportions of products with better nutrition score than non-bio products.
@@ -73,7 +73,7 @@ The same conclusion arises from these last graphs. While both distributions have
 Does the degree of transformation of the products have something to do with it? Let us see if any tendency is observable:
 
 {::nomarkdown}
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/8.embed" height="525" width="100%"></iframe>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/6.embed" height="525" width="100%"></iframe>
 {:/}
 
 Well... While both categories show relatively high levels of processing, the bio products tend to still have slightly better scores. They indeed tend to be less processed, which contributes to their nutritional scores.
@@ -113,7 +113,7 @@ What about the additives then? They are often source of controversy, and some ar
 Considering the same groups of products, let us observe the presence of additives in each category.
 
 {::nomarkdown}
-{% include_relative plots/additiveplot.html %}
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/8.embed" height="525" width="100%"></iframe>
 {:/}
 
 That is interesting! The proportions of additives is in general drastically different when looking at bio products vs. regular ones. Less additives are to be found in bio products. But do they actually impact the nutritional scores?
