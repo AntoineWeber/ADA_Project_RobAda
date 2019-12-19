@@ -1,6 +1,6 @@
 ---
 layout: story
-title: "Bio products VS Standard products"
+title: "Organic VS Standard products"
 feature: './assets/img/featureimg.jpg'
 permalink: /story/
 ---
@@ -28,9 +28,8 @@ To correctly compare these two categories, one should be careful with what produ
 * Sugary products
 
 All these categories actually embeds different subcategories that were merged for our analysis. If the reader is curious about which kind of products goes into each category, he have a look at the following wordclouds. The bigger the word, the most common is the product.
-
 {::nomarkdown}
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/36.embed" height="525" width="100%"></iframe>
+<img src="images/wordcloud_categories.png"  alt="wordcloud_categories"   style="zoom:50%;"  />
 {:/}
 
 **TODO would be super nice to have the main question written in huge on the screen at this point.**
@@ -49,33 +48,33 @@ But are bio products really healthier? Let us try to get a first intuition by ob
 
 ### French nutrition grade
 
-The French Nutri-Score is a nutrition label that converts the nutritional value of a product into a simple letter. There are 5 letters in total, each with its own color, A being the best and E the worst.
+The French Nutri-Score is a nutrition label that converts the nutritional value of a product into a simple letter. There are 5 letters in total, each with its own color, A being the best and E the worst. 
 
-The score is based on a formula that takes into account the properties to avoid (high energy values and the amount of sugars, saturated fats and salt) and the positive ones (the amount of fibers, proteins, fruit, vegetables and nuts).
+The score is based on a formula that takes into account the properties to avoid (high energy values and the amount of sugars, saturated fats and salt) and the positive ones (the amount of fibers, proteins, fruit, vegetables and nuts). 
 
 {::nomarkdown}
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/10.embed" height="525" width="100%"></iframe>
 {:/}
 
-Interestingly, both organic and standard products have similar grades distributions. However organic products tend to have in general better scores.
+Interestingly, both organic and standard products have similar grades distributions. However organic products tend to have in general better scores. 
 
-The tendency is that for good grades (e.g. A or B), the proportion of organic products is higher than the one of the standard products. It is inverted for bad grades (e.g. D or E).
+The tendency is that for good grades (e.g. A or B), the proportion of organic products is higher than the one of the standard products. It is inverted for bad grades (e.g. D or E). 
 
-Some execeptions exist for the beverages for instance but this observation holds in general.
+Some execeptions exist for the beverages for instance but this observation holds in general. 
 
 ### UK nutrition grade
 
-The UK score is essentially a finer version of the French score. Its range goes from -10 (best) to 40 (worst).
+The UK score is essentially a finer version of the French score. Its range goes from -10 (best) to 40 (worst). 
 
 {::nomarkdown}
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/15.embed" height="525" width="100%"></iframe>
 {:/}
 
-This score, which is essentially a finer version of the french nutri-score, also displays similar distributions between the two classes of products. Indeed, the shift of the organic products towards better scores is again visible here.
+This score, which is essentially a finer version of the french nutri-score, also displays similar distributions between the two classes of products. Indeed, the shift of the organic products towards better scores is again visible here. 
 
 ### Nova group
 
-The NOVA group helps people classify foods according to the extent and purpose of the processing they underwent.
+The NOVA group helps people classify foods according to the extent and purpose of the processing they underwent. 
 
 The values of this group are {1,2,3,4}:
 
@@ -88,7 +87,7 @@ The values of this group are {1,2,3,4}:
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/6.embed" height="525" width="100%"></iframe>
 {:/}
 
-Well… While both categories show relatively high levels of processing, the organic products tend to still have slightly better scores. They indeed tend to be less processed, which probably contributes to their nutritional scores.
+Well… While both categories show relatively high levels of processing, the organic products tend to still have slightly better scores. They indeed tend to be less processed, which probably contributes to their nutritional scores. 
 
 ### So what now?
 
@@ -106,7 +105,7 @@ Although the nutrition facts directly impact their nutritional scores, it is int
 
 {% include section.html text="Nutrient composition" image_url="images/carrot.jpg" %}
 
-Instead of solely relying on the nutritional scores, let us see for ourselves the main nutrients found in the two categories of products. The following plot shows the quantity of the selected nutrients per category of products.
+Instead of solely relying on the nutritional scores, let us see for ourselves the main nutrients found in the two categories of products. The following plot shows the quantity of the selected nutrients per category of products. 
 
 <img src="images/nutrient_table.jpeg"  alt="Nutriment table"   style="zoom:50%;"  />
 
