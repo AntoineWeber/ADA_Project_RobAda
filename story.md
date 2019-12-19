@@ -31,7 +31,7 @@ All these categories actually embeds different subcategories that were merged fo
 
 **TODO: change plot number and actually show correct plot**
 {::nomarkdown}
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/10.embed" height="525" width="100%"></iframe>
+<img src="images/wordcloud_categories.png"  alt="wordcloud_categories"   style="zoom:50%;"  />
 {:/}
 
 **TODO would be super nice to have the main question written in huge on the screen at this point.**
