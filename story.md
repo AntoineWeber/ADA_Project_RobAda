@@ -50,7 +50,7 @@ Open Food Facts contains two scores that can be used to evaluate a product:
 
   <img src="images/nutri_score_def.png"  alt="nutritional_score"   style="zoom:90%;"  />
 
-  {% include questions.html in_text=true text="Nova group" image_url="./images/carrot.jpg" %}
+  {% include questions.html in_text=true text="Nova group" image_url="../images/carrot.jpg" %}
 
 - **NOVA group**:  NOVA helps people group foods according to the extent and purpose of the processing they undergo. Food processing as identified by NOVA involved physical, biological and chemical processes that occur after foods are separated from nature, and before they are consumed or used in the preparation of dishes and meals.
 
