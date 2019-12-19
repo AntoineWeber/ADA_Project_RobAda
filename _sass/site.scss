@@ -224,11 +224,13 @@ header .entry-meta {
 header.titleWithImage {
 	width: 100%;
 	height: 100%;
-	background: black;
+	background: darkseagreen;
   overflow: hidden;
 }
 
 div.titleWithImage {
+	margin: 0;
+  padding: 0;
   background-size: cover;
   background-position: center;
   background-image: url(/path/to/backup/image); // Your backup background image
