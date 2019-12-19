@@ -65,6 +65,7 @@ The Open Food Facts database contains two scores that can be used to evaluate a 
   - Group 3 - Processed foods: Processed foods, such as bottled vegetables, canned fish, fruits in syrup, cheeses and freshly made breads, are made essentially by adding salt, oil, sugar or other substances from Group 2 to Group 1 foods.
   - Group 4 - Ultra-processed food and drink products: Ultra-processed foods, such as soft drinks, sweet or savory packaged snacks, reconstituted meat products and pre-prepared frozen dishes.
 
+**TODO: enlever ça et simplement introduire qu'on dive dans l'analyse des nutrition scores**
 ## Is Bio better?
 
 Nowadays, most products come in two flavors: bio or standard. Consequently, while shopping, we are always confronted to bio products whose costs are about 20-40% higher than their standard equivalent. Such a price increase must imply a more responsible production and therefore better product quality, right?
@@ -105,14 +106,13 @@ Well... While both categories show relatively high levels of processing, the bio
 
 ### So what now?
 
+**TODO: blabla more**
 The previous scores tend to be in favor of the bio products.
 
 **Do other properties also corroborate this claim?** Let us go through 2 more criteria:
 
 - Nutrition facts
 - Additives
-
-### Why is bio better then?
 
 #### Nutrition facts
 
@@ -166,6 +166,8 @@ There are quite a few interesting remarks that can be made regarding the results
 > *Hypothesis*: companies that make the effort to produce bio products also the effort to make healthy products.
 
 ## Conclusion
+
+**TODO: Conclude here if bio is better than standard !!! not before**
 
 **TODO but overall difference between regular/bio.**
 
