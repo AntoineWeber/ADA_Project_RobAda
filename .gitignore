@@ -4,6 +4,15 @@ data/en.openfoodfacts.org.products.csv
 # annoying mac
 .DS_Store
 
+# Plotly keys
+plotly_keys.csv
+
+# html files
+html/
+
+# images
+images/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
