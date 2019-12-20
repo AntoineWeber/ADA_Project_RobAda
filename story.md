@@ -4,6 +4,7 @@ title: "Organic, you said?"
 feature: './assets/img/featureimg.jpg'
 permalink: /story/
 ---
+<p style = "font-family:calibri">
 
 Nowadays, most products come in two flavors: **organic** or **standard**. Consequently, while shopping, we are always confronted to organic products whose costs are about 20-40% higher ([source](https://www.consumerreports.org/cro/news/2015/03/cost-of-organic-food/index.htm)) than their standard equivalent. Such a price increase must imply a more responsible production and therefore better product quality, right? 
 
@@ -141,4 +142,7 @@ The team: <br>
 * Antoine Weber: Master student in Robotics 
 
 > *Hypothesis*: companies that make the effort to produce organic products also the effort to make healthy products.
+
+
+</p>
 
