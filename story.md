@@ -7,11 +7,11 @@ permalink: /story/
 
 Nowadays, most products come in two flavors: **organic** or **standard**. Consequently, while shopping, we are always confronted to organic products whose costs are about 20-40% higher ([source](https://www.consumerreports.org/cro/news/2015/03/cost-of-organic-food/index.htm)) than their standard equivalent. Such a price increase must imply a more responsible production and therefore better product quality, right? 
 
-<i>
+
 <font color="#7DCD85">
-<b><center><font size="6">So concretely, are organic products healthier than regular ones? </font></center></b>
+<b><i><center><font size="7">So concretely, are organic products healthier than regular ones? </font></center></b></i>
 </font> 
-</i>
+
 
 <b><center><font size="5"> Open Food Facts </font></center></b>
 
