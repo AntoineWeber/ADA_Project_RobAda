@@ -8,9 +8,8 @@ permalink: /story/
 Nowadays, most products come in two flavors: **organic** or **standard**. Consequently, while shopping, we are always confronted to organic products whose costs are about 20-40% higher ([source](https://www.consumerreports.org/cro/news/2015/03/cost-of-organic-food/index.htm)) than their standard equivalent. Such a price increase must imply a more responsible production and therefore better product quality, right? 
 
 
-<font color="#7DCD85">
-<b><i><center><font size="7">So concretely, are organic products healthier than regular ones? </font></center></b></i>
-</font> 
+
+<b><i><center><font color="#7DCD85"><font size="7">So concretely, are organic products healthier than regular ones? </font></center></b></i>
 
 
 <b><center><font size="5"> Open Food Facts </font></center></b>
@@ -83,7 +82,7 @@ The values of this group are {1,2,3,4}:
 
 Well… While both categories show relatively high levels of processing, the organic products still tend to more often belong to better groups. They indeed tend to be less processed, which probably contributes to their nutritional scores.
 
-{% include section.html text="So what now?" image_url="images/carrot.jpg" %}
+{% include section.html text="So what now?" image_url="images/tomato.jpg" %}
 
 The previous scores tend to be in favor of the organic products. **Bit do other properties also corroborate this claim?** Let us go through 2 more criteria:
 
@@ -129,7 +128,7 @@ Now let's observe how these additives are represented in our organic and standar
 Organic products should, by definition, undergo as little processing as possible. Hence, they should contain less additives, right ? Well, look at the previous plot ! The proportions of additives is in general drastically different when looking at organic products vs. standard products. Indeed, as stated before, our intuition was right ! **There is in general much less additives in organic products versus standard ones.** In particular, there is almost no flavor enhancers in organic products ! Although, there are some exceptions, such as the anti-caking agents in the cereal based category, the general tendency is that the shape drawn by organic products is inscribed in the one of the standard products. This nicely illustrates the smaller general amount of additives in organic products.
 
 
-{% include section.html text="Conclusion" image_url="images/carrot.jpg" %}
+{% include section.html text="Conclusion" image_url="images/corn.jpg" %}
 
 To wrap up what we saw so far, we can draw several conclusions.
 
