@@ -9,7 +9,7 @@ Nowadays, most products come in two flavors: **organic** or **standard**. Conseq
 
 <br><br>
 
-<b><i><center><font color="#7DCD85"><font size="7">So concretely, are organic products healthier than regular ones? </font></font></center></i></b>
+<b><i><center><font color="#00864B"><font size="7">So concretely, are organic products healthier than regular ones? </font></font></center></i></b>
 
 <br><br>
 
