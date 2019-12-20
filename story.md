@@ -45,7 +45,7 @@ But are bio products really healthier? Let us try to get a first intuition by ob
 
 The French Nutri-Score is a nutrition label that converts the nutritional value of a product into a simple letter. There are 5 letters in total, each with its own color, A being the best and E the worst. 
 
-<img src="/images/Nutri-score-A.png"  alt="Nutri-score"   style="zoom:20%;"  />
+<img src="{{ site.url }}/images/Nutri-score-A.png"  alt="Nutri-score"   style="zoom:20%;"  />
 
 The score is based on a formula that takes into account the properties to avoid (high energy values and the amount of sugars, saturated fats and salt) and the positive ones (the amount of fibers, proteins, fruit, vegetables and nuts). 
 
