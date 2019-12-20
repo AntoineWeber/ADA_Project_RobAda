@@ -34,7 +34,7 @@ To correctly compare the **organic** and **standard** categories, one should be 
 
 All these categories actually embed different subcategories that were merged for our analysis. If the reader is curious about which kind of products goes into each category, please have a look at the following word-clouds. The bigger the word, the most common the product. Also, feel free to zoom in for a better readability. 
 
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/36.embed" height="600" width="100%"></iframe>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/36.embed" height="650" width="100%"></iframe>
 
 Now that the data is ready, let's dive into the main question of this analysis being: 
 
