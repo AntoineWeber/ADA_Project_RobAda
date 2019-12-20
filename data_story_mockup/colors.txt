@@ -1,5 +1,0 @@
-['#780116','#c32f27', '#7dcd85','#80ab82', '#db7c26','f7b538', '#2e4057','#048ba8', '#454545','#636363', '#a36d90','#cc7e85', '#e3d083','#f9ebaa', '#b88b47','#b59767'] 
-
-meat,                  fruit,               cereal,            drink,               dairy, 		  cooking,  		fat, 		    sugary
-color: red, 		green, 		    orange,  		blue,  		    gray,  		  purple,  		yellow, 	    brown
-order: dark, bright
