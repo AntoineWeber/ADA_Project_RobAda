@@ -7,17 +7,19 @@ permalink: /story/
 
 # {{ site.title }}
 
-Nowadays, most products come in two flavors: bio or standard. Consequently, while shopping, we are always confronted to bio products whose costs are about 20-40% higher ([source](https://www.consumerreports.org/cro/news/2015/03/cost-of-organic-food/index.htm)) than their standard equivalent. Such a price increase must imply a more responsible production and therefore better product quality, right? **So concretely, are bio products healthier than regular ones?**
+Nowadays, most products come in two flavors: **organic** or **standard**. Consequently, while shopping, we are always confronted to organic products whose costs are about 20-40% higher ([source](https://www.consumerreports.org/cro/news/2015/03/cost-of-organic-food/index.htm)) than their standard equivalent. Such a price increase must imply a more responsible production and therefore better product quality, right? 
+
+**So concretely, are organic products healthier than regular ones?**
 
 ### Open Food Facts
 
-To explore this question, we based our exploration on the [Open Food Facts](https://fr.openfoodfacts.org/) dataset, regrouping millions of products from all around the world, while the majority of the products originate from France and the USA. It provides insights on their composition, nutritional score, the place they are sold and many other information.  A complete list of all the fields available can be found [here](https://static.openfoodfacts.org/data/data-fields.txt).
+To investigate, we based our exploration on the [Open Food Facts](https://fr.openfoodfacts.org/) dataset, regrouping millions of products from all around the world, although the majority of the products originate from France or the USA. It provides insights on the products' composition, nutritional score, the place they are sold and many other information.  A complete list of all the available fields can be found [here](https://static.openfoodfacts.org/data/data-fields.txt).
 
-There is even an [app](https://play.google.com/store/apps/details?id=org.openfoodfacts.scanner&hl=fr_CH) based on the dataset which allows the user to scan the bar-code of a product and immediately get an evaluation of the product.
+There is even an [app](https://play.google.com/store/apps/details?id=org.openfoodfacts.scanner&hl=fr_CH) based on the dataset which allows the user to scan the bar-code of a product and immediately get its evaluation. 
 
 #### Product categories
 
-To correctly compare these two categories, one should be careful with what products are actually being compared to avoid comparing oil with salad, for instance. Hence, to carry out a more rigorous analysis, we split the Open Food Facts dataset into *8 categories of products*:
+To correctly compare the **organic** and **standard** categories, one should be careful with what products are actually being compared, to avoid comparing oil with salad, for instance. Hence, to carry out a more rigorous analysis, we split the Open Food Facts dataset into *8 categories of products*:
 * Meat, fish, egg
 * Fruit, vegetable
 * Cereal based
@@ -27,19 +29,17 @@ To correctly compare these two categories, one should be careful with what produ
 * Spices, salsa, condiments
 * Sugary products
 
-All these categories actually embeds different subcategories that were merged for our analysis. If the reader is curious about which kind of products goes into each category, he have a look at the following wordclouds. The bigger the word, the most common is the product.
+All these categories actually embed different subcategories that were merged for our analysis. If the reader is curious about which kind of products goes into each category, please have a look at the following word-clouds. The bigger the word, the most common the product. Also, feel free to zoom in for a better readability. 
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/36.embed" height="525" width="100%"></iframe>
-**TODO would be super nice to have the main question written in huge on the screen at this point.**
-Now that the data is ready, let's dive into the main question of this analysis being: **Are bio products better than standard products ?**
+Now that the data is ready, let's dive into the main question of this analysis being: 
 
+> **Are organic products better than standard products ?** (TODO: increase size?)
 
-Let's start the investigations with the nutrition scores. But first, some definitions.
-
-**TODO : As I already mentioned, the switch between questions should be marked with a big header, to actually illustrate better the switch between main investigations**
+Let's start our investigations with the nutrition scores. But first, some definitions.
 
 ## Is Organic better?
 
-But are bio products really healthier? Let us try to get a first intuition by observing the score on bio and standard products for different food categories.
+But are organic products really healthier? Let us try to get a first intuition by observing the scores of organic and standard products for different food categories.
 
 ### French nutrition grade
 
@@ -47,21 +47,23 @@ The French Nutri-Score is a nutrition label that converts the nutritional value 
 
 <img src="{{ site.url }}/images/nutri-score-a.png"  alt="Nutri-score"   width="100"  />
 
-The score is based on a formula that takes into account the properties to avoid (high energy values and the amount of sugars, saturated fats and salt) and the positive ones (the amount of fibers, proteins, fruit, vegetables and nuts).
+The score is based on a formula that takes into account the properties to avoid, such as high energy values, high sugar content, saturated fats and salt; and the properties to favor, such as the amount of fibers, proteins, fruit, vegetables and nuts. 
 
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/10.embed" height="525" width="100%"></iframe>
+
 Interestingly, both organic and standard products have similar grades distributions. However organic products tend to have in general better scores.
 
-The tendency is that for good grades (e.g. A or B), the proportion of organic products is higher than the one of the standard products. It is inverted for bad grades (e.g. D or E).
+The tendency is that for good grades (e.g. A or B), the proportion of organic products is higher than the one of the standard products. This tendency is inverted for bad grades (e.g. D or E).
 
-Some execeptions exist for the beverages for instance but this observation holds in general.
+Some exceptions exist for the beverages for instance but this observation holds in general.
 
 ### UK nutrition grade
 
 The UK score is essentially a finer version of the French score. Its range goes from -10 (best) to 40 (worst).
 
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/15.embed" height="525" width="100%"></iframe>
-This score, which is essentially a finer version of the french nutri-score, also displays similar distributions between the two classes of products. Indeed, the shift of the organic products towards better scores is again visible here.
+
+This score, also displays similar distributions between the two classes of products. Indeed, the shift of the organic products towards better scores is again visible here. 
 
 ### Nova group
 
@@ -71,43 +73,40 @@ The NOVA group helps people classify foods according to the extent and purpose o
 
 The values of this group are {1,2,3,4}:
 
-* Group 1 - Unprocessed or minimally processed foods.
-* Group 2 - Processed culinary ingredients.
-* Group 3 - Processed foods.
-* Group 4 - Ultra-processed food and drink products.
+* Group 1 - Minimally processed foods (parts of plants or animals)
+* Group 2 - Processed culinary ingredients (issued from simple processes such as pressing, refining, grinding, milling or drying)
+* Group 3 - Processed foods (bottled vegetables, canned fish, fruits in syrup, cheeses or freshly made breads, with additions of salt, oil, sugar or other substances)
+* Group 4 - Ultra-processed food and drink products (soft drinks, sweet packaged snacks, pre-cooked meals)
 
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/6.embed" height="525" width="100%"></iframe>
-Well… While both categories show relatively high levels of processing, the organic products tend to still have slightly better scores. They indeed tend to be less processed, which probably contributes to their nutritional scores.
 
-### So what now?
+Well… While both categories show relatively high levels of processing, the organic products still tend to more often belong to better groups. They indeed tend to be less processed, which probably contributes to their nutritional scores.
 
-**TODO: blabla more** or **less**!
-The previous scores tend to be in favor of the bio products.
+## So what now?
 
-**Do other properties also corroborate this claim?** Let us go through 2 more criteria:
+The previous scores tend to be in favor of the organic products. **Do other properties also corroborate this claim?** Let us go through 2 more criteria:
 
-- Nutrition facts
+- Nutrient composition
 - Additives
 
-Although the nutrition facts directly impact their nutritional scores, it is interesting to go a bit deeper into the products composition.
+Although the nutrient composition directly impact the nutritional scores, it is interesting to go a bit deeper into the products composition.
 
 {% include section.html text="Nutrient composition" image_url="images/carrot.jpg" %}
 
-Instead of solely relying on the nutritional scores, let us see for ourselves the main nutrients found in the two categories of products. The following plot shows the quantity of the selected nutrients per category of products.
+Instead of solely relying on the nutritional scores, let us see for ourselves the main nutrients found in the two categories of products. This information is typically displayed on the packaging of most procuts like in the example below.
 
 <img src="{{ site.url }}/images/nutrient_table_focus.png"  alt="Nutriment table"   width="200"  />
 
-The average quantity of the main nutrients contained in the products is shown in the following figure, for each category.
+The average quantity in grams for 100g of the main nutrients contained in the products is shown in the following figure, again for each category.
 
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/21.embed" height="525" width="100%"></iframe>
+
 There are quite a few interesting remarks that can be made regarding the results:
 
 * There are more fibers in organic products, no matter the category. This is highlighting the fact that the products are less processed than regular ones.
 * Conventional products containing meat, fish, and egg have more saturated fat than organic ones. The reason for this difference is mainly the diet of the animals. For example, animals that eat more grass have lower fat levels than animals that are fed processed cattle feed. This also can be seen with dairy products.
 * Interestingly, organic products have more protein than the conventional ones for all the categories except for meat, fish, and egg based products.
 * There is no significant difference in sugar between conventional and organic products for the majority of categories.
-
-
 
 ### Additives
 
@@ -123,7 +122,7 @@ What about the additives then? They are often source of controversy, and some ar
 
 Some of these additives are natural while some others are chemically synthetized and added to the products to enhance their flavor, appearance or texture or even to extend the products' life. Hence, while some are indeed harmless, it is not clear whether some others should be avoided at all risks or consumed with moderation. Due to the ambiguity of whether an additive may be harmful or not, it can be considered a good practice to try to consume as little additives as possible.
 
-Now let's observe how these additives are represented in our bio and standard products ! To ensure a fair comparison between them, each product categories defined above has been investigated independently to avoid comparing cats with dogs.
+Now let's observe how these additives are represented in our organic and standard products ! To ensure a fair comparison between them, each product categories defined above has been investigated independently to avoid comparing cats with dogs.
 
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/8.embed" height="525" width="100%"></iframe>
 Organic products should, by definition, undergo as little processing as possible. Hence, they should contain less additives, right ? Well, look at the previous plot ! The proportions of additives is in general drastically different when looking at organic products vs. standard products. Indeed, as stated before, our intuition was right ! **There is in general much less additives in organic products versus standard ones.** In particular, there is almost no flavor enhancers in organic products ! Although, there are some exceptions, such as the anti-caking agents in the cereal based category, the general tendency is that the shape drawn by organic products is inscribed in the one of the standard products. This nicely illustrates the smaller general amount of additives in organic products.
@@ -140,10 +139,11 @@ However, we definitely observed a difference in terms of presence of additives i
 
 
 
-**TODO: Conclude here if bio is better than standard !!! not before**
+**TODO: Conclude here if organic is better than standard !!! not before**
 
-**TODO but overall difference between regular/bio.**
+**TODO but overall difference between regular/organic.**
 
-**TODO: change all occurences of bio with organic .**
+**TODO: change all occurences of organic with organic .**
 
-> *Hypothesis*: companies that make the effort to produce bio products also the effort to make healthy products.
+> *Hypothesis*: companies that make the effort to produce organic products also the effort to make healthy products.
+
