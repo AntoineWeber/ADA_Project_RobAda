@@ -1,4 +1,4 @@
-# Free Diving into Food Facts
+# Organic, you said?
 
 [Link to the data story](https://antoineweber.github.io/ADA_Project_RobAda/).
 
@@ -30,7 +30,7 @@ To complement this dataset and filter the different products into main categorie
 
 **Thomas Havy**: Jekyll & HTML master / Wordclouds / Web scrapping / Interactive plots / Nutritional scores analysis.
 
-**Mohamed Fendri**: Data cleaning / Data processing / Correlation master / Wordclouds.
+**Mohamed Hedi Fendri**: Data cleaning / Data processing / Correlation master / Wordclouds.
 
 **Lucas Wälti**: Debugging of data processing / Data story writer / Categories creator / Merge master.
 
