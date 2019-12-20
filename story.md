@@ -45,6 +45,8 @@ But are bio products really healthier? Let us try to get a first intuition by ob
 
 The French Nutri-Score is a nutrition label that converts the nutritional value of a product into a simple letter. There are 5 letters in total, each with its own color, A being the best and E the worst. 
 
+<img src="images/Nutri-score-A.png"  alt="Nutri-score"   style="zoom:20%;"  />
+
 The score is based on a formula that takes into account the properties to avoid (high energy values and the amount of sugars, saturated fats and salt) and the positive ones (the amount of fibers, proteins, fruit, vegetables and nuts). 
 
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/10.embed" height="525" width="100%"></iframe>
@@ -108,6 +110,7 @@ There are quite a few interesting remarks that can be made regarding the results
 
 What about the additives then? They are often source of controversy, and some are even believed to be cancerous. Let us recall the main types of additives, as listed in [Wikipedia](https://en.wikipedia.org/wiki/Food_additive) (check [this page](https://en.wikipedia.org/wiki/E_number) for a more in depth listing):
 
+- **Antibiotics** (E700–E799)
 - **Antioxidants/acidity regulators** (E300–E399, used for controlling the [pH](https://en.wikipedia.org/wiki/PH) of foods for stability or to affect activity of enzymes)
 - **Colorants** (E100–E199, enhance or add colors to the product)
 - **Flavor enhancers** (E600–E699, enhance the food's existing flavor. Some flavor enhancers have their own flavors that are independent of the food.)
@@ -118,11 +121,10 @@ What about the additives then? They are often source of controversy, and some ar
 
 Some of these additives are natural while some others are chemically synthetized and added to the products to enhance their flavor, appearance or texture or even to extend the products' life. Hence, while some are indeed harmless, it is not clear whether some others should be avoided at all risks or consumed with moderation. Due to the ambiguity of whether an additive may be harmful or not, it can be considered a good practice to try to consume as little additives as possible.
 
-Now let's observe how these additives are represented in our bio and standard products ! To ensure a fair comparison between them, each poduct categories defined above has been investigated independently to avoid comparing cats with dogs.
+By definition, bio products should by definition undergo as little processings as possible. Hence intuitively they should contain less additives right ? Well let's see what the data tells us. To ensure a fair comparison between bio and standard products, each category has been investigated independently.
 
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/8.embed" height="525" width="100%"></iframe>
-
-By definition, bio products should by definition undergo as little processings as possible. Hence intuitively they should contain less additives right ? Well That is interesting ! The proportions of additives is in general drastically different when looking at bio products vs. standard products. Indeed, as stated before, our intuition was right ! **There is in general much less additives in bio products versus standard ones.** In particular, there is almost no flavour enhancers in bio products ! Overall the general tendency is that the bio representation of the category is inscribed the standard representation, which shows a smaller amount of additives in bio products. There are however some exceptions, such as the anti-caking agents in the cereal based category.
+That is interesting! The proportions of additives is in general drastically different when looking at bio products vs. standard products. Indeed, as stated before, our intuition was right ! **There is in general much less additives in bio products versus standard ones.** In particular, there is almost no flavour enhancers in bio products ! Overall the general tendency is that the bio representation of the category is inscribed the standard representation, which shows a smaller amount of additives in bio products. There are however some exceptions, such as the anti-caking agents in the cereal based category.
 
 
 
@@ -131,10 +133,6 @@ By definition, bio products should by definition undergo as little processings a
 > *Hypothesis*: companies that make the effort to produce bio products also the effort to make healthy products.
 
 ## Conclusion
-
-To wrap up the proposed analysis, we can draw different main conclusions. First, the different investigated aspects are not all uniformly in accordance whether bio products should be favoured at all costs. Indeed, for instance we remarked that in terms of nutrient compositions, the bio products are not always winning ! However we definitely observed a difference in terms of presence of additives in the different analyzed categories. Even if the common knowledge is not uniform in terms of the potential harm all these additives could bring to the human body, it is often advised to be careful with the unknown ! Let's not remember that some time ago cigarette was advertised to be healthy ([example](https://www.buzzfeed.com/copyranter/healthy-cigarette-ads)). So if you want to make sure to ingest as little additives as possible, it is pretty clear that **you should favour bio products over standard products !!**.
-
-
 
 **TODO: Conclude here if bio is better than standard !!! not before**
 
