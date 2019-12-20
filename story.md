@@ -67,6 +67,8 @@ This score, which is essentially a finer version of the french nutri-score, also
 
 The NOVA group helps people classify foods according to the extent and purpose of the processing they underwent. 
 
+<img src="{{ site.url }}/images/nova.png"  alt="nova"   style="zoom:20%;"  />
+
 The values of this group are {1,2,3,4}:
 
 * Group 1 - Unprocessed or minimally processed foods.
