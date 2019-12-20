@@ -11,13 +11,13 @@ Nowadays, most products come in two flavors: **organic** or **standard**. Conseq
 
 **So concretely, are organic products healthier than regular ones?**
 
-{% include section.html text="Open Food Facts" image_url="images/carrot.jpg" %}
+## Open Food Facts
 
 To investigate, we based our exploration on the [Open Food Facts](https://fr.openfoodfacts.org/) dataset, regrouping millions of products from all around the world, although the majority of the products originate from France or the USA. It provides insights on the products' composition, nutritional score, the place they are sold and many other information.  A complete list of all the available fields can be found [here](https://static.openfoodfacts.org/data/data-fields.txt).
 
 There is even an [app](https://play.google.com/store/apps/details?id=org.openfoodfacts.scanner&hl=fr_CH) based on the dataset which allows the user to scan the bar-code of a product and immediately get its evaluation. 
 
-{% include section.html text="Product categories" image_url="images/carrot.jpg" %}
+## Product categories
 
 To correctly compare the **organic** and **standard** categories, one should be careful with what products are actually being compared, to avoid comparing oil with salad, for instance. Hence, to carry out a more rigorous analysis, we split the Open Food Facts dataset into *8 categories of products*:
 * Meat, fish, egg
@@ -41,7 +41,7 @@ Let's start our investigations with the nutrition scores. But first, some defini
 
 Are organic products really healthier? Let us try to get a first intuition by observing the scores of organic and standard products for different food categories.
 
-{% include section.html text="French nutrition grade" image_url="images/carrot.jpg" %}
+## French nutrition grade
 
 The French Nutri-Score is a nutrition label that converts the nutritional value of a product into a simple letter. There are 5 letters in total, each with its own color, A being the best and E the worst.
 
@@ -57,7 +57,7 @@ The tendency is that for good grades (e.g. A or B), the proportion of organic pr
 
 Some exceptions exist for the beverages for instance but this observation holds in general.
 
-{% include section.html text="UK nutrition grade" image_url="images/carrot.jpg" %}
+## UK nutrition grade
 
 The UK score is essentially a finer version of the French score. Its range goes from -10 (best) to 40 (worst).
 
@@ -65,7 +65,7 @@ The UK score is essentially a finer version of the French score. Its range goes 
 
 This score, also displays similar distributions between the two classes of products. Indeed, the shift of the organic products towards better scores is again visible here. 
 
-{% include section.html text="Nova group" image_url="images/carrot.jpg" %}
+## Nova group
 
 The NOVA group helps people classify foods according to the extent and purpose of the processing they underwent.
 
@@ -91,7 +91,7 @@ The previous scores tend to be in favor of the organic products. **Do other prop
 
 Although the nutrient composition directly impact the nutritional scores, it is interesting to go a bit deeper into the products composition.
 
-{% include section.html text="Nutrient composition" image_url="images/carrot.jpg" %}
+## Nutrient composition
 
 Instead of solely relying on the nutritional scores, let us see for ourselves the main nutrients found in the two categories of products. This information is typically displayed on the packaging of most procuts like in the example below.
 
@@ -108,7 +108,7 @@ There are quite a few interesting remarks that can be made regarding the results
 * Interestingly, organic products have more protein than the conventional ones for all the categories except for meat, fish, and egg based products.
 * There is no significant difference in sugar between conventional and organic products for the majority of categories.
 
-{% include section.html text="Additives" image_url="images/carrot.jpg" %}
+## Additives
 
 What about the additives then? They are often source of controversy, and some are even believed to be cancerous. Let us recall the main types of additives, as listed in [Wikipedia](https://en.wikipedia.org/wiki/Food_additive) (check [this page](https://en.wikipedia.org/wiki/E_number) for a more in depth listing):
 
