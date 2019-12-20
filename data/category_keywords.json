@@ -3,25 +3,25 @@
     "meat": [
       "meat",
       "viande",
-      "meal",
-      "porc",
+      "short",
+      "food",
+      "volaille",
+      "lean",
+      "lamb",
+      "turkey",
       "veau",
       "beef",
-      "volaille",
-      "turkey",
-      "lamb",
-      "lean",
-      "short",
+      "meal",
       "agneau",
-      "food"
+      "porc"
     ],
     "fish": [
       "fish",
       "poisson",
+      "peche",
       "poisson",
       "fish",
-      "seafood",
-      "peche"
+      "seafood"
     ],
     "egg": [
       "egg",
@@ -31,20 +31,20 @@
   "fruit, vegetable": {
     "fruit": [
       "fruit",
+      "secs",
       "mer",
-      "fruits",
       "seed",
       "nature",
-      "secs",
+      "produit",
+      "fruits",
       "rouges",
-      "nut",
-      "produit"
+      "nut"
     ],
     "vegetable": [
       "vegetable",
       "legume",
-      "plant",
-      "organic"
+      "organic",
+      "plant"
     ],
     "legume": [
       "legume",
@@ -54,30 +54,30 @@
       "seed",
       "graine",
       "berry",
-      "grain",
-      "nut",
       "corn",
-      "plant"
+      "plant",
+      "nut",
+      "grain"
     ]
   },
   "cereal based": {
     "pasta": [
       "pasta",
       "pate",
-      "paste",
-      "bloc",
       "foie",
-      "creme",
-      "gateau",
       "terrine",
-      "vent"
+      "vent",
+      "creme",
+      "bloc",
+      "gateau",
+      "paste"
     ],
     "rice": [
       "rice",
       "riz",
-      "vie",
       "eau",
-      "riz"
+      "riz",
+      "vie"
     ],
     "flour": [
       "flour",
@@ -87,15 +87,15 @@
     "bread": [
       "bread",
       "pain",
-      "meal",
-      "petit",
-      "meals",
-      "pain",
       "campagne",
-      "lait",
       "food",
+      "lait",
+      "meals",
+      "meal",
       "grain",
-      "croute"
+      "croute",
+      "petit",
+      "pain"
     ],
     "biscuit": [
       "biscuit"
@@ -105,24 +105,24 @@
     "water": [
       "water",
       "eau",
-      "jus",
       "ice",
       "liquid",
-      "boisson"
+      "boisson",
+      "jus"
     ],
     "juice": [
       "juice",
       "jus",
-      "drink",
-      "jus",
-      "cafe",
-      "fruit",
-      "eau",
-      "liqueur",
-      "vie",
-      "boisson",
       "sauce",
-      "juice"
+      "vie",
+      "eau",
+      "juice",
+      "cafe",
+      "boisson",
+      "drink",
+      "fruit",
+      "jus",
+      "liqueur"
     ],
     "soda": [
       "soda",
@@ -134,18 +134,18 @@
     "alcohol": [
       "alcohol",
       "alcool",
-      "liquor",
+      "spirits",
       "wine",
-      "spirits"
+      "liquor"
     ]
   },
   "dairy": {
     "milk": [
       "milk",
       "lait",
-      "lit",
+      "liquid",
       "cream",
-      "liquid"
+      "lit"
     ],
     "cheese": [
       "cheese",
@@ -170,28 +170,28 @@
     "spice": [
       "spice",
       "epice",
-      "sale",
       "poivre",
-      "extract",
-      "pepper"
+      "sale",
+      "pepper",
+      "extract"
     ],
     "salt": [
       "salt",
       "sel",
-      "piment",
-      "spice",
-      "salted",
-      "gout",
-      "preserved",
       "pickled",
+      "preserved",
+      "salted",
+      "salt",
+      "spice",
+      "piment",
       "marinated",
-      "salt"
+      "gout"
     ],
     "herb": [
       "herb",
       "herbe",
-      "pre",
       "nature",
+      "pre",
       "marie",
       "animal"
     ],
@@ -204,8 +204,8 @@
       "oil",
       "huile",
       "gras",
-      "legume",
       "oleagineux",
+      "legume",
       "oil"
     ],
     "butter": [
@@ -237,8 +237,8 @@
       "ice cream",
       "glace",
       "ice",
-      "cream",
       "nature",
+      "cream",
       "creme",
       "liegeois"
     ]
