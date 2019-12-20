@@ -89,7 +89,7 @@ Well… While both categories show relatively high levels of processing, the org
 
 {% include section.html text="So what now?" image_url="images/tomato.jpg" %}
 
-The previous scores tend to be in favor of the organic products. **Bit do other properties also corroborate this claim?** Let us go through 2 more criteria:
+The previous scores tend to be in favor of the organic products. **But do other properties also corroborate this claim?** Let us go through 2 more criteria:
 
 - Nutrient composition
 - Additives
@@ -144,9 +144,7 @@ First, the different investigated aspects are not all uniformly in accordance wh
 However, we definitely observed a difference in terms of presence of additives in the different analyzed categories. Even if the common knowledge is not uniform in terms of the potential harm all these additives could bring to the human body, it is often advised to be careful with the unknown ! Let's not forget that some time ago, cigarette was advertised to be healthy ([example](https://www.buzzfeed.com/copyranter/healthy-cigarette-ads)). So if you want to make sure to ingest as little additives as possible, it is pretty clear that **you should favor organic products over standard products !!**
 
 The team: <br>
-* Lucas Wälti : Master student in Robotics
-* Mohamed Fendri: Master student in Robotics
-* Thomas Havy: Master student in Robotics
-* Antoine Weber: Master student in Robotics 
-
-> *Hypothesis*: companies that make the effort to produce organic products also the effort to make healthy products.
+* **Lucas Wälti** : Master student in Robotics
+* **Mohamed Fendri**: Master student in Robotics
+* **Thomas Havy**: Master student in Robotics
+* **Antoine Weber**: Master student in Robotics 
