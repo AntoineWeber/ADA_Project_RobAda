@@ -51,7 +51,7 @@ The French Nutri-Score is a nutrition label that converts the nutritional value 
 The score is based on a formula that takes into account the properties to avoid, such as high energy values, high sugar content, saturated fats and salt; and the properties to favor, such as the amount of fibers, proteins, fruit, vegetables and nuts.
 
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/10.embed" height="525" width="100%"></iframe>
-Interestingly, both organic and standard products have similar grades distribution shapes. In particular, we observe that the organic distributions are most of the time shifted towards better grades! The 'drink' category is the exception as it contains waters, which have the score 'A' and are mostly classified as standard products, hence explaining the derogation to the rule.
+Interestingly, both organic and standard products have similar grades distribution shapes. In particular, we observe that the organic distributions are most of the time shifted towards better grades! The 'beverage' category is the exception as it contains waters, which have the score 'A' and are mostly classified as standard products, hence explaining the derogation to the rule.
 
 This is a good start for the organic category which seems to surpass the standard category in terms of French nutritional score. Now let's observe if this specific nutrition score is in accordance with the UK nutrition score.
 
@@ -64,7 +64,7 @@ The UK score is essentially a finer version of the French score. Its range goes 
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/15.embed" height="525" width="100%"></iframe>
 This score, also displays similar distributions between the two classes of products. Indeed, the shift of the organic products towards better scores is again visible here. This may emerge from the fact that both nutrition scores rely on the same type of rules mostly based on the compositions of the products.
 
-Hence in terms of nutrition score, the organic products do not fail to their reputation of being healthier than standard products. Now let's dig a bit deeper with other analysis to check whether this statement remains true! Let's dig into the Nova group.
+Hence in terms of nutrition score, the organic products do not fail to their reputation of being healthier than standard products. Now let's dig a bit deeper with other analysis to check whether this statement remains true! Next step: Nova group.
 
 <br><br>
 <b><center><font size="5"> Nova group </font></center></b>
@@ -83,7 +83,7 @@ The values of this group are within the interval {1,2,3,4}:
 With these definitions, we can state that the higher the nova group, the less natural the product. Moreover, as group 4 contains the most processed products, it also contains the less healthy products.
 
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/6.embed" height="525" width="100%"></iframe>
-Different interesting observations can be established here! First, we observe that generally both categories show relatively high levels of processing, being that both organic and standard categories have a lot of products in the groups 3 and 4. But besides that, we also observe that for some categories there is a clear difference between the tendency of the organic and standard products! The most striking category is the beverage one where we clearly observe opposite tendencies. The organic products are mostly present in the nova group 1 while the complete opposite can be observed for the standard products which are mostly present in the 4th group. Moreover, the 4th group is **for all categories** composed of a bigger proportion of standard products compared to organic ones.
+Different interesting observations can be established here! First, we observe that generally both categories show relatively high levels of processing, being that both organic and standard categories have a lot of products in the groups 3 and 4. But besides that, we also observe that for some categories there is a clear difference between the tendency of the organic and standard products! The most striking category is the 'beverage' one where we clearly observe opposite tendencies. The organic products are mostly present in the nova group 1 while the complete opposite can be observed for the standard products which are mostly present in the 4th group. Moreover, the 4th group is **for all categories** composed of a bigger proportion of standard products compared to organic ones.
 
 Hence, here one can state that in terms of nova groups, the same analysis as for the nutrition scores can be established, being that **the organic products surpass the standard ones!**
 
@@ -145,7 +145,7 @@ We hope that the analysis and figures provided in this data story have helped yo
 
 Overall, the analysis we carried out tends to show a tangible positive difference  in favor of organic products compared to standard ones, and the results are quite coherent across all categories.  
 
-The organic products have in average better nutritional scores, both for the French and British ones. This is arguably relevant, as there could be two explanations: either the organic products are indeed healthier, or for marketing reasons only  organic products with high nutritional score are sold, because otherwise customers  would be less inclined to pay more for these.
+The organic products have on average better nutritional scores, both for the French and British ones. This is arguably relevant, as there could be two explanations: either the organic products are indeed healthier, or for marketing reasons only  organic products with high nutritional score are sold, because otherwise customers  would be less inclined to pay more for these.
 
 Beyond the difference in nutritional scores, we also observed a noticeable difference when diving in the composition in nutrients. In particular, organic products tended  to contain more fibers and proteins than standard products, which would go in the  direction that they are less processed. This theory would also be in adequacy with the distribution of products in the Nova groups. The proportion of organic products in the less processed groups (1st and 2nd) was higher than for standard products, and  similarly there was a lower proportion of products in the 4th group.
 
