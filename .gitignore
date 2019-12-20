@@ -1,3 +1,8 @@
 _site/
 .sass-cache/
 .jekyll-metadata
+.ipynb_checkpoints
+en.openfoodfacts.org.products.csv
+html/
+plotly_keys.csv
+__pycache__/
