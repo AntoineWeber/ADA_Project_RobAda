@@ -11,13 +11,13 @@ Nowadays, most products come in two flavors: **organic** or **standard**. Conseq
 
 **So concretely, are organic products healthier than regular ones?**
 
-### Open Food Facts
+{% include section.html text="Open Food Facts" image_url="images/carrot.jpg" %}
 
 To investigate, we based our exploration on the [Open Food Facts](https://fr.openfoodfacts.org/) dataset, regrouping millions of products from all around the world, although the majority of the products originate from France or the USA. It provides insights on the products' composition, nutritional score, the place they are sold and many other information.  A complete list of all the available fields can be found [here](https://static.openfoodfacts.org/data/data-fields.txt).
 
 There is even an [app](https://play.google.com/store/apps/details?id=org.openfoodfacts.scanner&hl=fr_CH) based on the dataset which allows the user to scan the bar-code of a product and immediately get its evaluation. 
 
-#### Product categories
+{% include section.html text="Product categories" image_url="images/carrot.jpg" %}
 
 To correctly compare the **organic** and **standard** categories, one should be careful with what products are actually being compared, to avoid comparing oil with salad, for instance. Hence, to carry out a more rigorous analysis, we split the Open Food Facts dataset into *8 categories of products*:
 * Meat, fish, egg
@@ -37,11 +37,11 @@ Now that the data is ready, let's dive into the main question of this analysis b
 
 Let's start our investigations with the nutrition scores. But first, some definitions.
 
-## Is Organic better?
+{% include section.html text="Is Organic better?" image_url="images/carrot.jpg" %}
 
-But are organic products really healthier? Let us try to get a first intuition by observing the scores of organic and standard products for different food categories.
+Are organic products really healthier? Let us try to get a first intuition by observing the scores of organic and standard products for different food categories.
 
-### French nutrition grade
+{% include section.html text="French nutrition grade" image_url="images/carrot.jpg" %}
 
 The French Nutri-Score is a nutrition label that converts the nutritional value of a product into a simple letter. There are 5 letters in total, each with its own color, A being the best and E the worst.
 
@@ -57,7 +57,7 @@ The tendency is that for good grades (e.g. A or B), the proportion of organic pr
 
 Some exceptions exist for the beverages for instance but this observation holds in general.
 
-### UK nutrition grade
+{% include section.html text="UK nutrition grade" image_url="images/carrot.jpg" %}
 
 The UK score is essentially a finer version of the French score. Its range goes from -10 (best) to 40 (worst).
 
@@ -65,7 +65,7 @@ The UK score is essentially a finer version of the French score. Its range goes 
 
 This score, also displays similar distributions between the two classes of products. Indeed, the shift of the organic products towards better scores is again visible here. 
 
-### Nova group
+{% include section.html text="Nova group" image_url="images/carrot.jpg" %}
 
 The NOVA group helps people classify foods according to the extent and purpose of the processing they underwent.
 
@@ -82,7 +82,7 @@ The values of this group are {1,2,3,4}:
 
 Well… While both categories show relatively high levels of processing, the organic products still tend to more often belong to better groups. They indeed tend to be less processed, which probably contributes to their nutritional scores.
 
-## So what now?
+{% include section.html text="So what now?" image_url="images/carrot.jpg" %}
 
 The previous scores tend to be in favor of the organic products. **Do other properties also corroborate this claim?** Let us go through 2 more criteria:
 
@@ -108,7 +108,7 @@ There are quite a few interesting remarks that can be made regarding the results
 * Interestingly, organic products have more protein than the conventional ones for all the categories except for meat, fish, and egg based products.
 * There is no significant difference in sugar between conventional and organic products for the majority of categories.
 
-### Additives
+{% include section.html text="Additives" image_url="images/carrot.jpg" %}
 
 What about the additives then? They are often source of controversy, and some are even believed to be cancerous. Let us recall the main types of additives, as listed in [Wikipedia](https://en.wikipedia.org/wiki/Food_additive) (check [this page](https://en.wikipedia.org/wiki/E_number) for a more in depth listing):
 
@@ -128,8 +128,7 @@ Now let's observe how these additives are represented in our organic and standar
 Organic products should, by definition, undergo as little processing as possible. Hence, they should contain less additives, right ? Well, look at the previous plot ! The proportions of additives is in general drastically different when looking at organic products vs. standard products. Indeed, as stated before, our intuition was right ! **There is in general much less additives in organic products versus standard ones.** In particular, there is almost no flavor enhancers in organic products ! Although, there are some exceptions, such as the anti-caking agents in the cereal based category, the general tendency is that the shape drawn by organic products is inscribed in the one of the standard products. This nicely illustrates the smaller general amount of additives in organic products.
 
 
-
-## Conclusion
+{% include section.html text="Conclusion" image_url="images/carrot.jpg" %}
 
 To wrap up what we saw so far, we can draw several conclusions.
 
