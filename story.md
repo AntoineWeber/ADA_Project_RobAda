@@ -103,10 +103,16 @@ The average quantity of the main nutrients contained in the products is shown in
 
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/21.embed" height="525" width="100%"></iframe>
 There are quite a few interesting remarks that can be made regarding the results:
+
+* There are more fibers in organic products, no matter the category. This is highlighting the fact that the products are less processed than regular ones. 
+
+<!--
+
 * There is less salt in bio products than in regular ones, whatever the category.
 * The quantities of fat is similar for regular and bio products, except for the `Meat, fish, egg` category. In this case, there is clearly less fat in bio products. For meat and fish, this is usually a sign of better quality.
 * The quantity of proteins and sugar are similar for bio and regular products.
 * There are more fibers and traces of fruit in bio products. This is highlighting the fact that the products are less processed than regular ones. This is especially striking in the `Beverage` category.
+-->
 
 ### Additives
 
