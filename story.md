@@ -53,11 +53,9 @@ The score is based on a formula that takes into account the properties to avoid,
 
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/10.embed" height="525" width="100%"></iframe>
 
-Interestingly, both organic and standard products have similar grades distributions. However organic products tend to have in general better scores.
+Interestingly, both organic and standard products have similar grades distribution shapes. In particular, we observe that the organic distributions are most of the time shifted towards better grades! Some exceptions exist for the beverages for instance but this observation holds in general. 
 
-The tendency is that for good grades (e.g. A or B), the proportion of organic products is higher than the one of the standard products. This tendency is inverted for bad grades (e.g. D or E).
-
-Some exceptions exist for the beverages for instance but this observation holds in general.
+This is a good start for the organic category which seems to surpass the standard category in terms of French nutritional score. Now let's observe if this specific nutrition score is in accordance with the UK nutrition score.
 
 <br><br>
 <b><center><font size="5"> UK nutrition grade </font></center></b>
@@ -67,7 +65,9 @@ The UK score is essentially a finer version of the French score. Its range goes 
 
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/15.embed" height="525" width="100%"></iframe>
 
-This score, also displays similar distributions between the two classes of products. Indeed, the shift of the organic products towards better scores is again visible here. 
+This score, also displays similar distributions between the two classes of products. Indeed, the shift of the organic products towards better scores is again visible here. This may emerge from the fact that both nutrition scores rely on the same type of rules mostly based on the compositions of the products. 
+
+Hence in terms of nutrition score, the organic products do not fail to their reputation of being healthier than standard products. Now let's dig a bit deeper with other analysis to check whether this statement remains true! Let's dig into the Nova group.
 
 <br><br>
 <b><center><font size="5"> Nova group </font></center></b>
@@ -87,12 +87,14 @@ With these definitions, we can state that the higher the nova group, the less na
 
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/6.embed" height="525" width="100%"></iframe>
 
-Different interesting observations can be established here ! First, we observe that generally both categories show relatively high levels of processing, being that both organic and standard categories have a lot of products in the groups 3 and 4. But besides that, we also observe that for some categories there is a clear difference between the tendency of the organic and standard products ! The most striking category is the beverage one where we clearly observe opposite tendencies. The organic products are mostly present in the nova group 1 while the complete opposite can be observed for the standard products which are mostly present in the 4th group. Moreover, the 4th group is **for all categories** composed of a bigger proportion of standard products compared to organic ones. Hence, here one can state that in terms of nova groups, **the organic products surpass the standard ones !**
+Different interesting observations can be established here! First, we observe that generally both categories show relatively high levels of processing, being that both organic and standard categories have a lot of products in the groups 3 and 4. But besides that, we also observe that for some categories there is a clear difference between the tendency of the organic and standard products! The most striking category is the beverage one where we clearly observe opposite tendencies. The organic products are mostly present in the nova group 1 while the complete opposite can be observed for the standard products which are mostly present in the 4th group. Moreover, the 4th group is **for all categories** composed of a bigger proportion of standard products compared to organic ones. 
+
+Hence, here one can state that in terms of nova groups, the same analysis as for the nutrition scores can be established, being that **the organic products surpass the standard ones!**
 
 
 {% include section.html text="So what now?" image_url="images/tomato.jpg" %}
 
-The previous scores tend to be in favor of the organic products. **But do other properties also corroborate this claim?** Let us go through 2 more criteria:
+Thus far, we analyzed different pre-computed scores or groups. All the different metrics were leaning towards the win of the organic products. The goal now is to try to analyze more raw attributes of the different products. For the sake of this study, we focused our sight on the two following types of attributes:
 
 - Nutrient composition
 - Additives
@@ -102,7 +104,7 @@ Although the nutrient composition directly impact the nutritional scores, it is 
 <br><br>
 <b><center><font size="5">  Nutrient composition </font></center></b>
 
-Instead of solely relying on the nutritional scores, let us see for ourselves the main nutrients found in the two categories of products. This information is typically displayed on the packaging of most procuts like in the example below.
+Let us see for ourselves the main nutrients found in the two categories of products. This information is typically displayed on the packaging of most procuts like in the example below.
 
 <img src="{{ site.url }}/images/nutrient_table_focus.png"  alt="Nutriment table"   width="200"  />
 
@@ -117,10 +119,14 @@ There are quite a few interesting remarks that can be made regarding the results
 * Interestingly, organic products have more protein than the conventional ones for all the categories except for meat, fish, and egg based products.
 * There is no significant difference in sugar between conventional and organic products for the majority of categories.
 
+Hence the products' nutrient compositions also lean towards the organic products being healthier. As stated before, the nutrition scores take into account part of the nutrient compositions which may explain why the unanimity is still present here.
+
+Finally, let's dig into a big subject being the **additives**. Will we again observe that the organic products surpass the standard ones with this analysis?
+
 <br><br>
 <b><center><font size="5">  Additives </font></center></b>
 
-What about the additives then? They are often source of controversy, and some are even believed to be cancerous. Let us recall the main types of additives, as listed in [Wikipedia](https://en.wikipedia.org/wiki/Food_additive) (check [this page](https://en.wikipedia.org/wiki/E_number) for a more in depth listing):
+Additives are often source of controversy, and some are even believed to be cancerous. Let us recall the main types of additives, as listed in [Wikipedia](https://en.wikipedia.org/wiki/Food_additive) (check [this page](https://en.wikipedia.org/wiki/E_number) for a more in depth listing):
 
 - **Antioxidants/acidity regulators** (E300–E399, used for controlling the [pH](https://en.wikipedia.org/wiki/PH) of foods for stability or to affect activity of enzymes)
 - **Colorants** (E100–E199, enhance or add colors to the product)
@@ -132,19 +138,19 @@ What about the additives then? They are often source of controversy, and some ar
 
 Some of these additives are natural while some others are chemically synthetized and added to the products to enhance their flavor, appearance or texture or even to extend the products' life. Hence, while some are indeed harmless, it is not clear whether some others should be avoided at all risks or consumed with moderation. Due to the ambiguity of whether an additive may be harmful or not, it can be considered a good practice to try to consume as little additives as possible.
 
-Now let's observe how these additives are represented in our organic and standard products ! To ensure a fair comparison between them, each product categories defined above has been investigated independently to avoid comparing cats with dogs.
+Now let's observe how these additives are represented in our organic and standard products! To ensure a fair comparison between them, each product categories defined above has been investigated independently to avoid comparing cats with dogs.
 
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/8.embed" height="525" width="100%"></iframe>
-Organic products should, by definition, undergo as little processing as possible. Hence, they should contain less additives, right ? Well, look at the previous plot ! The proportions of additives is in general drastically different when looking at organic products vs. standard products. Indeed, as stated before, our intuition was right ! **There is in general much less additives in organic products versus standard ones.** In particular, there is almost no flavor enhancers in organic products ! Although, there are some exceptions, such as the anti-caking agents in the cereal based category, the general tendency is that the shape drawn by organic products is inscribed in the one of the standard products. This nicely illustrates the smaller general amount of additives in organic products.
+Organic products should, by definition, undergo as little processing as possible. Hence, they should contain less additives, right ? Well, look at the previous plot! The proportions of additives is in general drastically different when looking at organic products vs. standard products. Indeed, as stated before, our intuition was right! **There is in general much less additives in organic products versus standard ones.** In particular, there is almost no flavor enhancers in organic products! Although, there are some exceptions, such as the anti-caking agents in the cereal based category, the general tendency is that the shape drawn by organic products is inscribed in the one of the standard products. This nicely illustrates the smaller general amount of additives in organic products.
 
 
 {% include section.html text="Conclusion" image_url="images/eggplant.jpg" %}
 
 To wrap up what we saw so far, we can draw several conclusions.
 
-First, the different investigated aspects are not all uniformly in accordance whether organic products should be favored at all costs. Indeed, we remarked for instance that in terms of nutrient compositions, the organic products are not always winning !
+First, the different investigated aspects are not all uniformly in accordance whether organic products should be favored at all costs. Indeed, we remarked for instance that in terms of nutrient compositions, the organic products are not always winning!
 
-However, we definitely observed a difference in terms of presence of additives in the different analyzed categories. Even if the common knowledge is not uniform in terms of the potential harm all these additives could bring to the human body, it is often advised to be careful with the unknown ! Let's not forget that some time ago, cigarette was advertised to be healthy ([example](https://www.buzzfeed.com/copyranter/healthy-cigarette-ads)). So if you want to make sure to ingest as little additives as possible, it is pretty clear that **you should favor organic products over standard products !!**
+However, we definitely observed a difference in terms of presence of additives in the different analyzed categories. Even if the common knowledge is not uniform in terms of the potential harm all these additives could bring to the human body, it is often advised to be careful with the unknown! Let's not forget that some time ago, cigarette was advertised to be healthy ([example](https://www.buzzfeed.com/copyranter/healthy-cigarette-ads)). So if you want to make sure to ingest as little additives as possible, it is pretty clear that **you should favor organic products over standard products!!**
 
 The team: <br>
 * **Lucas Wälti** : Master student in Robotics
