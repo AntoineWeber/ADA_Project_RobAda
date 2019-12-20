@@ -1,15 +1,15 @@
 ---
 layout: story
-title: "Organic VS Standard products"
+title: "Organic, you said?"
 feature: './assets/img/featureimg.jpg'
 permalink: /story/
 ---
 
-# {{ site.title }}
-
 Nowadays, most products come in two flavors: **organic** or **standard**. Consequently, while shopping, we are always confronted to organic products whose costs are about 20-40% higher ([source](https://www.consumerreports.org/cro/news/2015/03/cost-of-organic-food/index.htm)) than their standard equivalent. Such a price increase must imply a more responsible production and therefore better product quality, right? 
 
-**So concretely, are organic products healthier than regular ones?**
+ 
+<b><center><font size="5">So concretely, are organic products healthier than regular ones?</font></center></b>
+
 
 ## Open Food Facts
 
@@ -30,12 +30,10 @@ To correctly compare the **organic** and **standard** categories, one should be 
 * Sugary products
 
 All these categories actually embed different subcategories that were merged for our analysis. If the reader is curious about which kind of products goes into each category, please have a look at the following word-clouds. The bigger the word, the most common the product. Also, feel free to zoom in for a better readability. 
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/36.embed" height="525" width="100%"></iframe>
+
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/36.embed" height="545" width="100%"></iframe>
+
 Now that the data is ready, let's dive into the main question of this analysis being: 
-
-> **Are organic products better than standard products ?** (TODO: increase size?)
-
-Let's start our investigations with the nutrition scores. But first, some definitions.
 
 {% include section.html text="Is Organic better?" image_url="images/carrot.jpg" %}
 
