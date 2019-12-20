@@ -83,11 +83,11 @@ The values of this group are within the interval {1,2,3,4}:
 * Group 3 - Processed foods (bottled vegetables, canned fish, fruits in syrup, cheeses or freshly made breads, with additions of salt, oil, sugar or other substances)
 * Group 4 - Ultra-processed food and drink products (soft drinks, sweet packaged snacks, pre-cooked meals)
 
-With these definitions, we can state that the higher the nova group, the less natural and hence potentially healthy is the product.
+With these definitions, we can state that the higher the nova group, the less natural the product. Moreover, as group 4 contains the most processed products, it also contains the less healthy products.
 
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/6.embed" height="525" width="100%"></iframe>
 
-Different interesting observations can be established here ! First, we observe that generally both categories show relatively high levels of processing, being that both organic and standard categories have a lot of products in the groups 3 and 4. But besides that, we also observe that for some categories there is a clear difference between the tendency of the organic and standard products ! The most striking category is the beverage one where we clearly observe a mirror in terms of tendency. The organic products are mostly present in the nova group 1 while the complete opposite can be observed for the standard products which are mostly present in the 4th group. Moreover, the 4tg group is **always** composed of a bigger proportion of standard products compared to organic ones. Hence, here one can state that in terms of nova groups, **the organic products surpasses the standard ones !**
+Different interesting observations can be established here ! First, we observe that generally both categories show relatively high levels of processing, being that both organic and standard categories have a lot of products in the groups 3 and 4. But besides that, we also observe that for some categories there is a clear difference between the tendency of the organic and standard products ! The most striking category is the beverage one where we clearly observe opposite tendencies. The organic products are mostly present in the nova group 1 while the complete opposite can be observed for the standard products which are mostly present in the 4th group. Moreover, the 4th group is **for all categories** composed of a bigger proportion of standard products compared to organic ones. Hence, here one can state that in terms of nova groups, **the organic products surpass the standard ones !**
 
 
 {% include section.html text="So what now?" image_url="images/tomato.jpg" %}
