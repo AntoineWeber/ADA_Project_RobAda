@@ -145,6 +145,6 @@ However, we definitely observed a difference in terms of presence of additives i
 
 The team: <br>
 * **Lucas Wälti** : Master student in Robotics
-* **Mohamed Fendri**: Master student in Robotics
+* **Mohamed Hedi Fendri**: Master student in Robotics
 * **Thomas Havy**: Master student in Robotics
 * **Antoine Weber**: Master student in Robotics 
