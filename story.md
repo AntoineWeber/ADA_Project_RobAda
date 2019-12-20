@@ -17,7 +17,7 @@ Nowadays, most products come in two flavors: **organic** or **standard**. Conseq
 
 To investigate, we based our exploration on the [Open Food Facts](https://fr.openfoodfacts.org/) dataset, regrouping millions of products from all around the world, although the majority of the products originate from France or the USA. It provides insights on the products' composition, nutritional score, the place they are sold and many other information.  A complete list of all the available fields can be found [here](https://static.openfoodfacts.org/data/data-fields.txt).
 
-There is even an [app](https://play.google.com/store/apps/details?id=org.openfoodfacts.scanner&hl=fr_CH) based on the dataset which allows the user to scan the bar-code of a product and immediately get its evaluation. 
+There is even an [app](https://play.google.com/store/apps/details?id=org.openfoodfacts.scanner&hl=fr_CH) based on the dataset which allows the user to scan the barcode of a product and immediately get its evaluation. 
 <br><br>
 
 <b><center><font size="5"> Product categories </font></center></b>
@@ -131,7 +131,7 @@ Additives are often source of controversy, and some are even believed to be canc
 - **Thickeners, stabilizers and emulsifiers** (E400–E499, increase the product's [viscosity](https://en.wikipedia.org/wiki/Viscosity) without substantially modifying its other properties)
 - **pH regulators and anti-caking agents** (E500–E599, keep powders such as milk powder from caking or sticking)
 
-Some of these additives are natural while some others are chemically synthetized and added to the products to enhance their flavor, appearance or texture or even to extend the products' life. Hence, while some are indeed harmless, it is not clear whether some others should be avoided at all costs or consumed with moderation. Due to the ambiguity of whether an additive may be harmful or not, it can be considered a good practice to try to consume as little additives as possible.
+Some of these additives are natural while some others are chemically synthesized and added to the products to enhance their flavor, appearance or texture or even to extend the products' life. Hence, while some are indeed harmless, it is not clear whether some others should be avoided at all costs or consumed with moderation. Due to the ambiguity of whether an additive may be harmful or not, it can be considered a good practice to try to consume as little additives as possible.
 
 Now let's observe how these additives are represented in our organic and standard products! To ensure a fair comparison between them, each product categories defined above has been investigated independently to avoid comparing cats with dogs.
 
@@ -141,11 +141,19 @@ Organic products should, by definition, undergo as little processing as possible
 
 {% include section.html text="Conclusion" image_url="images/eggplant.jpg" %}
 
-To wrap up what we saw so far, we can draw several conclusions.
+We hope that the analysis and figures provided in this data story have helped you  understand more about food products, and the difference between organic and standard products.  
 
-First, the different investigated aspects are not all uniformly in accordance whether organic products should be favored at all costs. Indeed, we remarked for instance that in terms of nutrient compositions, the organic products are not always winning!
+Overall, the analysis we carried out tends to show a tangible positive difference  in favor of organic products compared to standard ones, and the results are quite coherent across all categories.  
 
-However, we definitely observed a difference in terms of presence of additives in the different analyzed categories. Even if the common knowledge is not uniform in terms of the potential harm all these additives could bring to the human body, it is often advised to be careful with the unknown! Let's not forget that some time ago, cigarette was advertised to be healthy ([example](https://www.buzzfeed.com/copyranter/healthy-cigarette-ads)). So if you want to make sure to ingest as little additives as possible, it is pretty clear that **you should favor organic products over standard products!!**
+The organic products have in average better nutritional scores, both for the French and British ones. This is arguably relevant, as there could be two explanations: either the organic products are indeed healthier, or for marketing reasons only  organic products with high nutritional score are sold, because otherwise customers  would be less inclined to pay more for these. 
+
+Beyond the difference in nutritional scores, we also observed a noticeable difference when diving in the composition in nutrients. In particular, organic products tended  to contain more fibers and proteins than standard products, which would go in the  direction that they are less processed. This theory would also be in adequacy with the distribution of products in the Nova groups. The proportion of organic products in the less processed groups (1st and 2nd) was higher than for standard products, and  similarly there was a lower proportion of products in the 4th group. 
+
+We also investigated the presence of different categories of additives in the products. In general, there are less additives in organic products, and especially less  conservatives and flavor enhancers. Even though the medical experts don't all agree  on the potential harm of all these additives, it is often advised to be limit them to the strict necessary. Let’s not forget that not so long ago, [cigarettes were advertised as being healthy](https://www.buzzfeed.com/copyranter/healthy-cigarette-ads). So if you want to make sure to ingest as little additives as possible, it is pretty clear that you should favor organic products over standard  products ! 
+
+So all in all, should we all stop eating standard products in favor of organic products? Well, there is no need to go to that extreme. While our results tend to show that organic products are healthier, the results must be looked at carefully. Indeed, since we worked on the Open Food Facts dataset, which is crowd-sourced, there were quite a lot of missing information and there could be some erroneous. More importantly,  there are much more standard products than organic products, which means that the  data is more reliable for the former than for the latter. Thank you for reading this story, and eat well :) ! 
+
+
 
 The team: <br>
 * **Lucas Wälti** : Master student in Robotics
