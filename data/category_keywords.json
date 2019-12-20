@@ -1,0 +1,246 @@
+{
+  "meat, fish, egg": {
+    "meat": [
+      "meat",
+      "viande",
+      "meal",
+      "porc",
+      "veau",
+      "beef",
+      "volaille",
+      "turkey",
+      "lamb",
+      "lean",
+      "short",
+      "agneau",
+      "food"
+    ],
+    "fish": [
+      "fish",
+      "poisson",
+      "poisson",
+      "fish",
+      "seafood",
+      "peche"
+    ],
+    "egg": [
+      "egg",
+      "oeuf"
+    ]
+  },
+  "fruit, vegetable": {
+    "fruit": [
+      "fruit",
+      "mer",
+      "fruits",
+      "seed",
+      "nature",
+      "secs",
+      "rouges",
+      "nut",
+      "produit"
+    ],
+    "vegetable": [
+      "vegetable",
+      "legume",
+      "plant",
+      "organic"
+    ],
+    "legume": [
+      "legume",
+      "Legumineuse"
+    ],
+    "seed": [
+      "seed",
+      "graine",
+      "berry",
+      "grain",
+      "nut",
+      "corn",
+      "plant"
+    ]
+  },
+  "cereal based": {
+    "pasta": [
+      "pasta",
+      "pate",
+      "paste",
+      "bloc",
+      "foie",
+      "creme",
+      "gateau",
+      "terrine",
+      "vent"
+    ],
+    "rice": [
+      "rice",
+      "riz",
+      "vie",
+      "eau",
+      "riz"
+    ],
+    "flour": [
+      "flour",
+      "farine",
+      "farine"
+    ],
+    "bread": [
+      "bread",
+      "pain",
+      "meal",
+      "petit",
+      "meals",
+      "pain",
+      "campagne",
+      "lait",
+      "food",
+      "grain",
+      "croute"
+    ],
+    "biscuit": [
+      "biscuit"
+    ]
+  },
+  "beverage": {
+    "water": [
+      "water",
+      "eau",
+      "jus",
+      "ice",
+      "liquid",
+      "boisson"
+    ],
+    "juice": [
+      "juice",
+      "jus",
+      "drink",
+      "jus",
+      "cafe",
+      "fruit",
+      "eau",
+      "liqueur",
+      "vie",
+      "boisson",
+      "sauce",
+      "juice"
+    ],
+    "soda": [
+      "soda",
+      "boisson gazeuse",
+      "soft",
+      "drink",
+      "cocktail"
+    ],
+    "alcohol": [
+      "alcohol",
+      "alcool",
+      "liquor",
+      "wine",
+      "spirits"
+    ]
+  },
+  "dairy": {
+    "milk": [
+      "milk",
+      "lait",
+      "lit",
+      "cream",
+      "liquid"
+    ],
+    "cheese": [
+      "cheese",
+      "fromage"
+    ],
+    "yoghurt": [
+      "yoghurt",
+      "yaourt"
+    ],
+    "cream": [
+      "cream",
+      "creme",
+      "gratin"
+    ]
+  },
+  "spices, salsa, condiment": {
+    "salsa": [
+      "salsa",
+      "sauce",
+      "coulis"
+    ],
+    "spice": [
+      "spice",
+      "epice",
+      "sale",
+      "poivre",
+      "extract",
+      "pepper"
+    ],
+    "salt": [
+      "salt",
+      "sel",
+      "piment",
+      "spice",
+      "salted",
+      "gout",
+      "preserved",
+      "pickled",
+      "marinated",
+      "salt"
+    ],
+    "herb": [
+      "herb",
+      "herbe",
+      "pre",
+      "nature",
+      "marie",
+      "animal"
+    ],
+    "condiment": [
+      "condiment"
+    ]
+  },
+  "oil, butter": {
+    "oil": [
+      "oil",
+      "huile",
+      "gras",
+      "legume",
+      "oleagineux",
+      "oil"
+    ],
+    "butter": [
+      "butter",
+      "beurre"
+    ]
+  },
+  "sugary product": {
+    "sugar": [
+      "sugar",
+      "sucre",
+      "doux",
+      "lactose",
+      "caramel"
+    ],
+    "jam": [
+      "jam",
+      "confiture"
+    ],
+    "candy": [
+      "candy",
+      "bonbon"
+    ],
+    "chocolate": [
+      "chocolate",
+      "chocolat"
+    ],
+    "ice cream": [
+      "ice cream",
+      "glace",
+      "ice",
+      "cream",
+      "nature",
+      "creme",
+      "liegeois"
+    ]
+  }
+}
