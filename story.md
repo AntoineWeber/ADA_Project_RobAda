@@ -95,7 +95,7 @@ Although the nutrition facts directly impact their nutritional scores, it is int
 
 Instead of solely relying on the nutritional scores, let us see for ourselves the main nutrients found in the two categories of products. The following plot shows the quantity of the selected nutrients per category of products. 
 
-<img src="images/nutrient_table.jpeg"  alt="Nutriment table"   style="zoom:50%;"  />
+<img src="{{ site.url }}/images/nutrient_table.jpeg"  alt="Nutriment table"   style="zoom:50%;"  />
 
 The average quantity of the main nutrients contained in the products is shown in the following figure, for each category.
 
