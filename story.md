@@ -38,9 +38,7 @@ Let's start the investigations with the nutrition scores. But first, some defini
 
 **TODO : As I already mentioned, the switch between questions should be marked with a big header, to actually illustrate better the switch between main investigations**
 
-## Is Bio better?
-
-Nowadays, most products come in two flavors: bio or standard. Consequently, while shopping, we are always confronted to bio products whose costs are about 20-40% higher than their standard equivalent. Such a price increase must imply a more responsible production and therefore better product quality, right?
+## Is Organic better?
 
 But are bio products really healthier? Let us try to get a first intuition by observing the score on bio and standard products for different food categories.
 
