@@ -1,6 +1,6 @@
 //colors
 $bodycolor           : #D24D57;
-$black           	 : #000;
+$black           	   : #000;
 $white               : #fff;
 $color_gray          : #e8e8e8;
 $red                 : #FF4136;
@@ -18,13 +18,13 @@ $color_fuscous_gray  : #555;
 $color_alabaster     : #fcfcfc;
 $color_celeste       : #ccc;
 $color_pink_swan     : #bbb;
-$comp-color 	     : complement(#222); 
+$comp-color 	       : complement(#222);
 
 //button colors
 $success			 : #5cb85c;
 $warning			 : #dd8338;
 $danger				 : #C64537;
-$info		         : #308cbc;
+$info		       : #308cbc;
 
 //fonts
 $font1               : Fira Sans,sans-serif;
@@ -32,6 +32,11 @@ $font2               : Inconsolata;
 $alt-font            : serif;
 $doc-font-size       : 16;
 $doc-line-height     : 26;
+
+// For the titles with images
+$color_mask_title_image : rgba(143, 188, 143, 0.4);
+$color_font_title_image : rgba(255, 255, 255, 1.0);
+$font_title_image       : $font1
 
 //media
 $small               : "only screen and (max-width: 30em)";
