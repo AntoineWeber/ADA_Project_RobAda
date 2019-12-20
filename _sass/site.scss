@@ -222,9 +222,10 @@ header .entry-meta {
 }
 
 header.titleWithImage {
+	padding: 0;
 	margin: 0;
-  padding: 0;
-	width: 100%;
+	margin-left: -4.55em;
+	width: calc(100% + 2 * 4.55em);
 	height: 100%;
   overflow: hidden;
 }
@@ -245,4 +246,6 @@ h1.titleWithImage {
 	text-align: center;
 	color: $color_font_title_image;
 	font-family: $font_title_image;
+	line-height: $line_height_title_image;
+	font-size: $font_size_title_image;
 }

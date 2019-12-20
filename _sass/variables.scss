@@ -34,9 +34,12 @@ $doc-font-size       : 16;
 $doc-line-height     : 26;
 
 // For the titles with images
-$color_mask_title_image : rgba(143, 188, 143, 0.4);
-$color_font_title_image : rgba(255, 255, 255, 1.0);
-$font_title_image       : $font1;
+$color_mask_title_image  : rgba(143, 188, 143, 0.4);
+$color_font_title_image  : rgba(255, 255, 255, 1.0);
+$font_title_image        : $font1;
+// These 2 will also affect the height of the banner
+$font_size_title_image   : 3em;
+$line_height_title_image : 2em;
 
 //media
 $small               : "only screen and (max-width: 30em)";
