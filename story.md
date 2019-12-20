@@ -5,7 +5,7 @@ feature: './assets/img/featureimg.jpg'
 permalink: /story/
 ---
 
-Nowadays, most products come in two flavors: **organic** or **standard**. Consequently, while shopping, we are always confronted to organic products whose [costs are about 20-40% higher](https://www.consumerreports.org/cro/news/2015/03/cost-of-organic-food/index.htm) than their standard equivalent. Such a price increase must imply a more responsible production and therefore better product quality, right? 
+Nowadays, most products come in two flavors: **organic** or **standard**. Consequently, while shopping, we are always confronted to organic products whose [costs are about 20-40% higher](https://www.consumerreports.org/cro/news/2015/03/cost-of-organic-food/index.htm) than their standard equivalent. Such a price increase must imply a more responsible production and therefore better product quality, right?
 
 <br><br>
 
@@ -22,7 +22,7 @@ There is even an [app](https://play.google.com/store/apps/details?id=org.openfoo
 
 <b><center><font size="5"> Product categories </font></center></b>
 
-To correctly compare the **organic** and **standard** categories, one should be careful with what products are actually being compared, to avoid comparing oil with salad, for instance. Hence, to carry out a more rigorous analysis, we split the Open Food Facts dataset into *8 categories of products*:
+To correctly compare the **organic** and **standard** products, one should be careful with what products are actually being compared, to avoid comparing oil with salad, for instance. Hence, to carry out a more rigorous analysis, we split the Open Food Facts dataset into *8 categories of products*:
 * Meat, fish, egg
 * Fruit, vegetable
 * Cereal based
@@ -51,7 +51,7 @@ The French Nutri-Score is a nutrition label that converts the nutritional value 
 The score is based on a formula that takes into account the properties to avoid, such as high energy values, high sugar content, saturated fats and salt; and the properties to favor, such as the amount of fibers, proteins, fruit, vegetables and nuts.
 
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/10.embed" height="525" width="100%"></iframe>
-Interestingly, both organic and standard products have similar grades distribution shapes. In particular, we observe that the organic distributions are most of the time shifted towards better grades! Some exceptions exist for the beverages for instance but this observation holds in general.
+Interestingly, both organic and standard products have similar grades distribution shapes. In particular, we observe that the organic distributions are most of the time shifted towards better grades! The 'drink' category is the exception as it contains waters, which have the score 'A' and are mostly classified as standard products, hence explaining the derogation to the rule.
 
 This is a good start for the organic category which seems to surpass the standard category in terms of French nutritional score. Now let's observe if this specific nutrition score is in accordance with the UK nutrition score.
 
@@ -136,7 +136,7 @@ Some of these additives are natural while some others are chemically synthesized
 Now let's observe how these additives are represented in our organic and standard products! To ensure a fair comparison between them, each product categories defined above has been investigated independently to avoid comparing cats with dogs.
 
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~inutile/8.embed" height="525" width="100%"></iframe>
-Organic products should, by definition, undergo as little processing as possible. Hence, they should contain less additives, right ? Well, look at the previous plot! The proportions of additives is in general drastically different when looking at organic products vs. standard products. Indeed, as stated before, our intuition was right! **There is in general much less additives in organic products versus standard ones.** In particular, there is almost no flavor enhancers in organic products! Although, there are some exceptions, such as the anti-caking agents in the cereal based category, the general tendency is that the shape drawn by organic products is inscribed in the one of the standard products. This nicely illustrates the smaller general amount of additives in organic products.
+Organic products should, by definition, undergo as little processing as possible. Hence, they should contain less additives, right ? Well, look at the previous plot! The proportions of products containing additives is in general drastically different when looking at organic vs. standard products. Indeed, as stated before, our intuition was right! **There is in proportion much less organic products containing additives than for the standard ones.** In particular, there is almost no flavor enhancers in organic products! Although, there are some exceptions, such as the anti-caking agents in the cereal based category, the general tendency is that the shape drawn by organic products is inscribed in the one of the standard products. This nicely illustrates the smaller general amount of additives in organic products.
 
 
 {% include section.html text="Conclusion" image_url="images/eggplant.jpg" %}
@@ -154,8 +154,9 @@ We also investigated the presence of different categories of additives in the pr
 So all in all, should we all stop eating standard products in favor of organic products? Well, there is no need to go to that extreme. While our results tend to show that organic products are healthier, the results must be looked at carefully. Indeed, since we worked on the Open Food Facts dataset, which is crowd-sourced, there were quite a lot of missing information and there could be some erroneous. More importantly,  there are much more standard products than organic products, which means that the  data is more reliable for the former than for the latter. Thank you for reading this story, and eat well :) !
 
 
+<br><br>
+<b><center><font size="5">  The RobAda team </font></center></b>
 
-The team: <br>
 * **Lucas Wälti** : Master student in Robotics
 * **Mohamed Hedi Fendri**: Master student in Robotics
 * **Thomas Havy**: Master student in Robotics
