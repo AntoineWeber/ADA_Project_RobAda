@@ -105,14 +105,11 @@ The average quantity of the main nutrients contained in the products is shown in
 There are quite a few interesting remarks that can be made regarding the results:
 
 * There are more fibers in organic products, no matter the category. This is highlighting the fact that the products are less processed than regular ones. 
+* Conventional products containing meat, fish, and egg have more saturated fat than organic ones. The reason for this difference is mainly the diet of the animals. For example, animals that eat more grass have lower fat levels than animals that are fed processed cattle feed. This also can be seen with dairy products. 
+* Interestingly, organic products have more protein than the conventional ones for all the categories except for meat, fish, and egg based products.
+* There is no significant difference in sugar between conventional and organic products for the majority of categories.
 
-<!--
 
-* There is less salt in bio products than in regular ones, whatever the category.
-* The quantities of fat is similar for regular and bio products, except for the `Meat, fish, egg` category. In this case, there is clearly less fat in bio products. For meat and fish, this is usually a sign of better quality.
-* The quantity of proteins and sugar are similar for bio and regular products.
-* There are more fibers and traces of fruit in bio products. This is highlighting the fact that the products are less processed than regular ones. This is especially striking in the `Beverage` category.
--->
 
 ### Additives
 
